@@ -1,0 +1,80 @@
+{
+ "dominio": "sangre",
+ "semilla": 0,
+ "presupuesto_por_ronda": 4,
+ "rondas": 6,
+ "inicial": {
+  "conocido_escalares": 0.046947306211222894,
+  "conocido_campos": 0.11694641248323023,
+  "nuevo_escalares": 0.09790762315969914,
+  "nuevo_campos": 0.19194080284796655
+ },
+ "estrategias": {
+  "colmena_v08": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.046947306211222894,
+    "conocido_campos": 0.11694641248323023,
+    "nuevo_escalares": 0.09790762315969914,
+    "nuevo_campos": 0.19194080284796655
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 3,
+    "conocido_escalares": 0.042576117120916024,
+    "conocido_campos": 0.12393954757135361,
+    "nuevo_escalares": 0.08810228249058127,
+    "nuevo_campos": 0.1739370704162866
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.03974485160142649,
+    "conocido_campos": 0.10904202802339569,
+    "nuevo_escalares": 0.0787509057263378,
+    "nuevo_campos": 0.15424311847891659
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.04838441568426788,
+    "conocido_campos": 0.10790860850829631,
+    "nuevo_escalares": 0.0795604856684804,
+    "nuevo_campos": 0.17179475829470903
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.03788894522585906,
+    "conocido_campos": 0.10341526533011347,
+    "nuevo_escalares": 0.06407909537665546,
+    "nuevo_campos": 0.16815063660033047
+   },
+   {
+    "ronda": 4,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.03788894522585906,
+    "conocido_campos": 0.10341526533011347,
+    "nuevo_escalares": 0.06407909537665546,
+    "nuevo_campos": 0.16815063660033047
+   },
+   {
+    "ronda": 5,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.03788894522585906,
+    "conocido_campos": 0.10341526533011347,
+    "nuevo_escalares": 0.06407909537665546,
+    "nuevo_campos": 0.16815063660033047
+   }
+  ]
+ },
+ "segundos": 167.2,
+ "agota_en_ronda": 2
+}

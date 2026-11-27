@@ -1,0 +1,105 @@
+{
+ "dominio": "sangre",
+ "semilla": 0,
+ "diversa": {
+  "error_promedio_sin_abstencion": 0.46226996183395386,
+  "colmena_inspeccion": {
+   "cobertura": 0.8218749761581421,
+   "error_aceptadas": 0.42745909094810486,
+   "aceptadas_dentro": 0.8687499761581421,
+   "aceptadas_fuera": 0.7749999761581421
+  },
+  "promedio_ponderado": {
+   "cobertura": 0.8999999761581421,
+   "error_aceptadas": 0.3630577623844147,
+   "aceptadas_dentro": 0.8500000238418579,
+   "aceptadas_fuera": 0.949999988079071
+  },
+  "colmena_solo_acuerdo": {
+   "cobertura": 0.809374988079071,
+   "error_aceptadas": 0.389839768409729,
+   "aceptadas_dentro": 0.9125000238418579,
+   "aceptadas_fuera": 0.706250011920929
+  },
+  "agentes": [
+   {
+    "simulador": "quemada",
+    "memoria": "completa",
+    "n_slices": 8,
+    "d": 40
+   },
+   {
+    "simulador": "carreau",
+    "memoria": "episodica",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "quemada",
+    "memoria": "completa",
+    "n_slices": 16,
+    "d": 56
+   },
+   {
+    "simulador": "carreau",
+    "memoria": "episodica",
+    "n_slices": 12,
+    "d": 40
+   }
+  ]
+ },
+ "seleccion": {
+  "rondas": 10,
+  "abstenciones": 10,
+  "colmena_elige_geometria_nueva": null,
+  "argmax_medio_elige_geometria_nueva": 0.30000001192092896,
+  "azar": 0.2
+ },
+ "homogenea": {
+  "error_promedio_sin_abstencion": 0.852028489112854,
+  "colmena_inspeccion": {
+   "cobertura": 0.4749999940395355,
+   "error_aceptadas": 0.7245481610298157,
+   "aceptadas_dentro": 0.7124999761581421,
+   "aceptadas_fuera": 0.23749999701976776
+  },
+  "promedio_ponderado": {
+   "cobertura": 0.7749999761581421,
+   "error_aceptadas": 0.776846706867218,
+   "aceptadas_dentro": 0.6000000238418579,
+   "aceptadas_fuera": 0.949999988079071
+  },
+  "colmena_solo_acuerdo": {
+   "cobertura": 0.518750011920929,
+   "error_aceptadas": 0.7600087523460388,
+   "aceptadas_dentro": 0.824999988079071,
+   "aceptadas_fuera": 0.21250000596046448
+  },
+  "agentes": [
+   {
+    "simulador": "quemada",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "quemada",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "quemada",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "quemada",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   }
+  ]
+ }
+}

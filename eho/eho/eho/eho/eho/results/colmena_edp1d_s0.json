@@ -1,0 +1,98 @@
+{
+ "dominio": "edp1d",
+ "semilla": 0,
+ "diversa": {
+  "error_promedio_sin_abstencion": 2.301187038421631,
+  "colmena_inspeccion": {
+   "cobertura": 0.3843750059604645,
+   "error_aceptadas": 0.7828173637390137,
+   "aceptadas_dentro": 0.7562500238418579,
+   "aceptadas_fuera": 0.012500000186264515
+  },
+  "promedio_ponderado": {
+   "cobertura": 0.4000000059604645,
+   "error_aceptadas": 0.8252404928207397,
+   "aceptadas_dentro": 0.800000011920929,
+   "aceptadas_fuera": 0.0
+  },
+  "colmena_solo_acuerdo": {
+   "cobertura": 0.5062500238418579,
+   "error_aceptadas": 1.2312790155410767,
+   "aceptadas_dentro": 0.824999988079071,
+   "aceptadas_fuera": 0.1875
+  },
+  "agentes": [
+   {
+    "simulador": "edp1d",
+    "memoria": "completa",
+    "n_slices": 8,
+    "d": 40
+   },
+   {
+    "simulador": "edp1d",
+    "memoria": "episodica",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "edp1d",
+    "memoria": "completa",
+    "n_slices": 16,
+    "d": 56
+   },
+   {
+    "simulador": "edp1d",
+    "memoria": "episodica",
+    "n_slices": 12,
+    "d": 40
+   }
+  ]
+ },
+ "homogenea": {
+  "error_promedio_sin_abstencion": 2.2835187911987305,
+  "colmena_inspeccion": {
+   "cobertura": 0.39375001192092896,
+   "error_aceptadas": 0.9104531407356262,
+   "aceptadas_dentro": 0.7124999761581421,
+   "aceptadas_fuera": 0.07500000298023224
+  },
+  "promedio_ponderado": {
+   "cobertura": 0.2750000059604645,
+   "error_aceptadas": 0.7520460486412048,
+   "aceptadas_dentro": 0.550000011920929,
+   "aceptadas_fuera": 0.0
+  },
+  "colmena_solo_acuerdo": {
+   "cobertura": 0.581250011920929,
+   "error_aceptadas": 1.7387830018997192,
+   "aceptadas_dentro": 0.762499988079071,
+   "aceptadas_fuera": 0.4000000059604645
+  },
+  "agentes": [
+   {
+    "simulador": "edp1d",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "edp1d",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "edp1d",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   },
+   {
+    "simulador": "edp1d",
+    "memoria": "completa",
+    "n_slices": 12,
+    "d": 48
+   }
+  ]
+ }
+}

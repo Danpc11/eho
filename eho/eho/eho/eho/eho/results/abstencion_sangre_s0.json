@@ -1,0 +1,59 @@
+{
+ "dominio": "sangre",
+ "semilla": 0,
+ "riesgo": 0.1,
+ "delta": 0.1,
+ "tasa_fallo_prueba": 0.20277777314186096,
+ "ms_por_prediccion_colmena": 38.51991922222201,
+ "metodos": {
+  "desviacion": {
+   "auroc_fallo": 0.6042193690038662,
+   "aurc": 0.6116358637809753,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "mad": {
+   "auroc_fallo": 0.5382082000859147,
+   "aurc": 0.6450690627098083,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "distancia": {
+   "auroc_fallo": 0.6075604983055701,
+   "aurc": 0.611923098564148,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "inspeccion": {
+   "auroc_fallo": 0.7739248723211303,
+   "aurc": 0.5095697045326233,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "confianza": {
+   "auroc_fallo": 0.7693427521359363,
+   "aurc": 0.5091164708137512,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "colmena": {
+   "auroc_fallo": 0.6719488329912653,
+   "aurc": 0.5429647564888,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "clasificador": {
+   "auroc_fallo": 0.7271251968879767,
+   "aurc": 0.5415807962417603,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  }
+ }
+}

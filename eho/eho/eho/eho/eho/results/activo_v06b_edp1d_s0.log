@@ -1,0 +1,11 @@
+[exp_edp1d] entrenando 4 agentes en cpu (1 fuente(s) de datos)
+  agente 1/4 listo (edp1d, {'n_slices': 8, 'd': 40})
+  agente 2/4 listo (edp1d, {'n_slices': 12, 'd': 48})
+  agente 3/4 listo (edp1d, {'n_slices': 16, 'd': 56})
+  agente 4/4 listo (edp1d, {'n_slices': 12, 'd': 40})
+[exp_edp1d] listo en 165 s
+inicial {'conocido_escalares': 0.13451143261045218, 'conocido_campos': 0.5663802155759186, 'nuevo_escalares': 0.8498012641211972, 'nuevo_campos': 5.080632349476218}
+colmena_v06 {'conocido_escalares': 0.1144, 'conocido_campos': 0.5002, 'nuevo_escalares': 0.76, 'nuevo_campos': 3.166, 'ronda': 0, 'simulaciones': 4, 'acumuladas': 4, 'nuevas_elegidas': 4}
+colmena_v06 {'conocido_escalares': 0.1179, 'conocido_campos': 0.4808, 'nuevo_escalares': 0.6695, 'nuevo_campos': 2.3346, 'ronda': 1, 'simulaciones': 1, 'acumuladas': 5, 'nuevas_elegidas': 0}
+colmena_v06 {'conocido_escalares': 0.1073, 'conocido_campos': 0.4687, 'nuevo_escalares': 0.6307, 'nuevo_campos': 2.1118, 'ronda': 2, 'simulaciones': 1, 'acumuladas': 6, 'nuevas_elegidas': 0}
+colmena_v06 {'conocido_escalares': 0.1021, 'conocido_campos': 0.4597, 'nuevo_escalares': 0.533, 'nuevo_campos': 2.3656, 'ronda': 3, 'simulaciones': 1, 'acumuladas': 7, 'nuevas_elegidas': 1}

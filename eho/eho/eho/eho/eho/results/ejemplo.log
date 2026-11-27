@@ -1,0 +1,33 @@
+ep   0 | train 1.2519 | campos 0.4390 | logη 0.3648 | δ/R 0.0566 | especies 4 | mem 0
+ep   1 | train 0.8294 | campos 0.4510 | logη 0.2951 | δ/R 0.0404 | especies 4 | mem 48
+ep   2 | train 0.6803 | campos 0.4277 | logη 0.2978 | δ/R 0.0237 | especies 4 | mem 48
+ep   3 | train 0.6377 | campos 0.4061 | logη 0.3411 | δ/R 0.0343 | especies 4 | mem 96
+ep   4 | train 0.6772 | campos 0.3102 | logη 0.1043 | δ/R 0.0932 | especies 4 | mem 96
+ep   5 | train 0.4266 | campos 0.2349 | logη 0.0681 | δ/R 0.0334 | especies 4 | mem 144
+ep   6 | train 0.5516 | campos 0.4350 | logη 0.2381 | δ/R 0.1606 | especies 4 | mem 144
+ep   7 | train 0.5095 | campos 0.1628 | logη 0.1058 | δ/R 0.0344 | especies 2 | mem 194
+ep   8 | train 0.2272 | campos 0.1436 | logη 0.0564 | δ/R 0.0203 | especies 2 | mem 194
+ep   9 | train 0.1848 | campos 0.0983 | logη 0.0325 | δ/R 0.0190 | especies 2 | mem 242
+ep  10 | train 0.1410 | campos 0.0800 | logη 0.0235 | δ/R 0.0162 | especies 2 | mem 242
+ep  11 | train 0.1310 | campos 0.1287 | logη 0.0580 | δ/R 0.0194 | especies 3 | mem 290
+ep  12 | train 0.2094 | campos 0.0834 | logη 0.0669 | δ/R 0.0147 | especies 2 | mem 291
+ep  13 | train 0.1495 | campos 0.0749 | logη 0.0251 | δ/R 0.0143 | especies 2 | mem 339
+ep  14 | train 0.1164 | campos 0.0593 | logη 0.0270 | δ/R 0.0148 | especies 2 | mem 339
+ep  15 | train 0.1005 | campos 0.0599 | logη 0.0228 | δ/R 0.0121 | especies 3 | mem 387
+ep  16 | train 0.0983 | campos 0.0618 | logη 0.0258 | δ/R 0.0128 | especies 2 | mem 388
+ep  17 | train 0.1030 | campos 0.0563 | logη 0.0496 | δ/R 0.0112 | especies 2 | mem 436
+ep  18 | train 0.1011 | campos 0.0651 | logη 0.0176 | δ/R 0.0110 | especies 2 | mem 436
+ep  19 | train 0.1116 | campos 0.0494 | logη 0.0431 | δ/R 0.0119 | especies 2 | mem 484
+ep  20 | train 0.0881 | campos 0.0603 | logη 0.0183 | δ/R 0.0109 | especies 2 | mem 484
+ep  21 | train 0.0733 | campos 0.0514 | logη 0.0316 | δ/R 0.0099 | especies 2 | mem 532
+ep  22 | train 0.0807 | campos 0.0489 | logη 0.0274 | δ/R 0.0096 | especies 2 | mem 532
+ep  23 | train 0.0814 | campos 0.0433 | logη 0.0233 | δ/R 0.0088 | especies 2 | mem 580
+ep  24 | train 0.0700 | campos 0.0512 | logη 0.0171 | δ/R 0.0087 | especies 2 | mem 580
+calibración de memoria (mejora, (β, compuerta)): (0.08435766902333897, (32.0, 1.0))
+prueba: {'campos_L2rel': 0.05263525009155273, 'log_eta_MAE': 0.016099000573158263, 'cfl_MAE': 0.008484022816022237}
+especies activas: 2 | abundancias: [1.6518055200576782, 2.9540174182329793e-06]
+invasiones: [{'padre': 2, 'mutante': 1, 'Lambda': -0.787833571434021, 'admitido': False}, {'padre': 2, 'mutante': 1, 'Lambda': 0.18588948249816895, 'admitido': True}, {'padre': 1, 'mutante': 2, 'Lambda': 0.2038063406944275, 'admitido': True}, {'padre': 0, 'mutante': 1, 'Lambda': -0.7890690565109253, 'admitido': False}, {'padre': 2, 'mutante': 1, 'Lambda': -0.5987808108329773, 'admitido': False}]
+/home/claude/hemotwin_eho/ejemplo_rapido.py:27: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  print("η_rel aparente predicha:", float(out["scalars"][0, 0].exp()), "| verdadera:", float(p["scalars"][0, 0].exp()))
+η_rel aparente predicha: 1.9037220478057861 | verdadera: 1.8786647319793701

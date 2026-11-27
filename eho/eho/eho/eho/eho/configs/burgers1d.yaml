@@ -1,0 +1,13 @@
+# Burgers viscoso 1D con resolvedor pseudoespectral (v0.7): no lineal, sin solución cerrada
+nombre: burgers
+dominio:
+  nombre: burgers1d
+  params: {n_grid: 64, n_solve: 512}
+  regimenes: [viscoso, poco_viscoso]
+  episodios_por_regimen: 40
+  muestras_por_episodio: 8
+  episodios_calibracion: 80
+modelo: {d: 48, n_slices: 12, memoria: completa, novedad: coseno}
+colmena: {n_agentes: 4, calibracion: ltt, riesgo: 0.1, delta: 0.1}
+entrenamiento: {epocas: 30}
+activo: {presupuesto: 4, usar_error: true}
