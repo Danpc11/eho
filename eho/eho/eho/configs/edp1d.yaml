@@ -1,0 +1,10 @@
+# Dominio general de prueba: advección-difusión 1D con solución exacta
+nombre: adveccion_difusion
+dominio:
+  nombre: edp1d
+  regimenes: [difusivo, advectivo]
+  episodios_por_regimen: 40
+  muestras_por_episodio: 8
+colmena: {n_agentes: 4}
+entrenamiento: {epocas: 30}
+activo: {presupuesto: 4, usar_error: true}

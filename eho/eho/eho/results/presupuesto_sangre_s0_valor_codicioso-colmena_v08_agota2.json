@@ -1,0 +1,153 @@
+{
+ "dominio": "sangre",
+ "semilla": 0,
+ "presupuesto_por_ronda": 4,
+ "rondas": 6,
+ "inicial": {
+  "conocido_escalares": 0.04475372761953622,
+  "conocido_campos": 0.11964688572334126,
+  "nuevo_escalares": 0.09168624220183119,
+  "nuevo_campos": 0.19423110340721905
+ },
+ "estrategias": {
+  "valor_codicioso": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.04475372761953622,
+    "conocido_campos": 0.11964688572334126,
+    "nuevo_escalares": 0.09168624220183119,
+    "nuevo_campos": 0.19423110340721905
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.04149211030744482,
+    "conocido_campos": 0.13085597101598978,
+    "nuevo_escalares": 0.07935536839067936,
+    "nuevo_campos": 0.17832788941450417
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.04553695613867603,
+    "conocido_campos": 0.11293039773590863,
+    "nuevo_escalares": 0.06871652085101232,
+    "nuevo_campos": 0.15809237875510007
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.04832331233774312,
+    "conocido_campos": 0.11195652961032465,
+    "nuevo_escalares": 0.061229419719893485,
+    "nuevo_campos": 0.14966078172437847
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.038891281554242596,
+    "conocido_campos": 0.10878597665578127,
+    "nuevo_escalares": 0.05999540857737884,
+    "nuevo_campos": 0.1602864193264395
+   },
+   {
+    "ronda": 4,
+    "acumuladas": 20,
+    "nuevas": 0,
+    "conocido_escalares": 0.038862037094077095,
+    "conocido_campos": 0.11191536643309519,
+    "nuevo_escalares": 0.048345990042435005,
+    "nuevo_campos": 0.14211501774843782
+   },
+   {
+    "ronda": 5,
+    "acumuladas": 24,
+    "nuevas": 0,
+    "conocido_escalares": 0.04955922317458317,
+    "conocido_campos": 0.11090451653581113,
+    "nuevo_escalares": 0.07214130891952664,
+    "nuevo_campos": 0.14724594971630722
+   }
+  ],
+  "colmena_v08": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.04475372761953622,
+    "conocido_campos": 0.11964688572334126,
+    "nuevo_escalares": 0.09168624220183119,
+    "nuevo_campos": 0.19423110340721905
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.04149211030744482,
+    "conocido_campos": 0.13085597101598978,
+    "nuevo_escalares": 0.07935536839067936,
+    "nuevo_campos": 0.17832788941450417
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.04553695613867603,
+    "conocido_campos": 0.11293039773590863,
+    "nuevo_escalares": 0.06871652085101232,
+    "nuevo_campos": 0.15809237875510007
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.04832331233774312,
+    "conocido_campos": 0.11195652961032465,
+    "nuevo_escalares": 0.061229419719893485,
+    "nuevo_campos": 0.14966078172437847
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.038891281554242596,
+    "conocido_campos": 0.10878597665578127,
+    "nuevo_escalares": 0.05999540857737884,
+    "nuevo_campos": 0.1602864193264395
+   },
+   {
+    "ronda": 4,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.038891281554242596,
+    "conocido_campos": 0.10878597665578127,
+    "nuevo_escalares": 0.05999540857737884,
+    "nuevo_campos": 0.1602864193264395
+   },
+   {
+    "ronda": 5,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.038891281554242596,
+    "conocido_campos": 0.10878597665578127,
+    "nuevo_escalares": 0.05999540857737884,
+    "nuevo_campos": 0.1602864193264395
+   }
+  ]
+ },
+ "colmena_v08_paro": {
+  "simulaciones": 16,
+  "simulaciones_codicioso": 24,
+  "error_nuevo": 0.05999540857737884,
+  "codicioso_mismas_sim": 0.05999540857737884,
+  "a_mismas_sim": 0.0,
+  "codicioso_presupuesto_completo": 0.07214130891952664,
+  "perdida_por_parar": -0.012145900342147797
+ },
+ "segundos": 357.4,
+ "agota_en_ronda": 2
+}

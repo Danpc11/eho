@@ -1,0 +1,21 @@
+# Archivos públicos de PDEBench 1D (v0.7). Descargar de DaRUS (ver el repositorio de PDEBench) y
+# ajustar las rutas. Cada archivo es un valor de ν: el modelo debe inferirlo con pocos ejemplos.
+# Para la prueba, use un dominio igual con traj_range: [0.8, 1.0] y los archivos retenidos.
+nombre: pdebench_burgers
+dominio:
+  nombre: pdebench1d
+  params:
+    n_grid: 64
+    traj_range: [0.0, 0.8]
+    archivos:
+      nu0.002: datos/pdebench/1D_Burgers_Sols_Nu0.002.hdf5
+      nu0.01: datos/pdebench/1D_Burgers_Sols_Nu0.01.hdf5
+      nu0.04: datos/pdebench/1D_Burgers_Sols_Nu0.04.hdf5
+      nu0.1: datos/pdebench/1D_Burgers_Sols_Nu0.1.hdf5
+      nu0.4: datos/pdebench/1D_Burgers_Sols_Nu0.4.hdf5
+  regimenes: [nu0.01, nu0.1]          # entrenamiento; nu0.04 = interpolación, nu0.002 = cambio oculto
+  episodios_por_regimen: 60
+  muestras_por_episodio: 8
+modelo: {memoria: completa}
+colmena: {n_agentes: 4, calibracion: ltt}
+entrenamiento: {epocas: 30}

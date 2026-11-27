@@ -1,0 +1,59 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 0,
+ "riesgo": 0.1,
+ "delta": 0.1,
+ "tasa_fallo_prueba": 0.33888888359069824,
+ "ms_por_prediccion_colmena": 37.577272752777766,
+ "metodos": {
+  "desviacion": {
+   "auroc_fallo": 0.6685149469623916,
+   "aurc": 0.7585834860801697,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "mad": {
+   "auroc_fallo": 0.5597189695550351,
+   "aurc": 0.9842280745506287,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "distancia": {
+   "auroc_fallo": 0.6639688662350186,
+   "aurc": 0.7627342343330383,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "inspeccion": {
+   "auroc_fallo": 0.48119575699132117,
+   "aurc": 1.025081992149353,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "confianza": {
+   "auroc_fallo": 0.4818156770905084,
+   "aurc": 1.0268549919128418,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "colmena": {
+   "auroc_fallo": 0.5826560132249621,
+   "aurc": 0.8525680303573608,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "clasificador": {
+   "auroc_fallo": 0.6582173853147817,
+   "aurc": 0.7392756938934326,
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  }
+ }
+}

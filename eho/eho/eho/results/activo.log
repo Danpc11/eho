@@ -1,0 +1,6 @@
+aleatorio 0 {'muestras': 300, 'costo': 594.2712, 'campos_L2rel': 0.0587, 'log_eta_MAE': 0.0215, 'cfl_MAE': 0.0073}
+adquisicion 0 {'muestras': 300, 'costo': 280.068, 'campos_L2rel': 0.0506, 'log_eta_MAE': 0.0206, 'cfl_MAE': 0.0082}
+politica_RL 0 {'muestras': 300, 'costo': 274.3149, 'campos_L2rel': 0.1046, 'log_eta_MAE': 0.0291, 'cfl_MAE': 0.0156}
+aleatorio 1 {'muestras': 300, 'costo': 657.1581, 'campos_L2rel': 0.0628, 'log_eta_MAE': 0.0225, 'cfl_MAE': 0.0058}
+adquisicion 1 {'muestras': 300, 'costo': 291.4768, 'campos_L2rel': 0.0661, 'log_eta_MAE': 0.029, 'cfl_MAE': 0.0086}
+politica_RL 1 {'muestras': 300, 'costo': 284.6438, 'campos_L2rel': 0.0825, 'log_eta_MAE': 0.0201, 'cfl_MAE': 0.0091}
