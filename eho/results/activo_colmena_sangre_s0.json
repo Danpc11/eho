@@ -1,0 +1,128 @@
+{
+ "dominio": "sangre",
+ "semilla": 0,
+ "inicial": {
+  "conocido_escalares": 0.022281813973677345,
+  "conocido_campos": 0.07612440356751904,
+  "nuevo_escalares": 0.04831335262861103,
+  "nuevo_campos": 0.14890859357547015
+ },
+ "estrategias": {
+  "aleatoria": [
+   {
+    "conocido_escalares": 0.02526827518886421,
+    "conocido_campos": 0.06728142371866852,
+    "nuevo_escalares": 0.04119515200727619,
+    "nuevo_campos": 0.12250819499604404,
+    "ronda": 0,
+    "simulaciones": 4,
+    "nuevas_elegidas": 1
+   },
+   {
+    "conocido_escalares": 0.019992806533991825,
+    "conocido_campos": 0.06366688705747947,
+    "nuevo_escalares": 0.03421326515672263,
+    "nuevo_campos": 0.10720763739664108,
+    "ronda": 1,
+    "simulaciones": 4,
+    "nuevas_elegidas": 0
+   },
+   {
+    "conocido_escalares": 0.015862328647926915,
+    "conocido_campos": 0.058792742143850774,
+    "nuevo_escalares": 0.03291702253045514,
+    "nuevo_campos": 0.10343116690637544,
+    "ronda": 2,
+    "simulaciones": 4,
+    "nuevas_elegidas": 1
+   }
+  ],
+  "promedio": [
+   {
+    "conocido_escalares": 0.02610849226039136,
+    "conocido_campos": 0.063277828914579,
+    "nuevo_escalares": 0.03491945368296001,
+    "nuevo_campos": 0.099656336766202,
+    "ronda": 0,
+    "simulaciones": 4,
+    "nuevas_elegidas": 4
+   },
+   {
+    "conocido_escalares": 0.019582382497901563,
+    "conocido_campos": 0.05970318685285747,
+    "nuevo_escalares": 0.03156865285563981,
+    "nuevo_campos": 0.09114027163013816,
+    "ronda": 1,
+    "simulaciones": 4,
+    "nuevas_elegidas": 1
+   },
+   {
+    "conocido_escalares": 0.016880699047760572,
+    "conocido_campos": 0.059815367218106985,
+    "nuevo_escalares": 0.02750559145351872,
+    "nuevo_campos": 0.091281792614609,
+    "ronda": 2,
+    "simulaciones": 4,
+    "nuevas_elegidas": 3
+   }
+  ],
+  "colmena": [
+   {
+    "conocido_escalares": 0.019482364325085655,
+    "conocido_campos": 0.06381979357684031,
+    "nuevo_escalares": 0.036358475510496646,
+    "nuevo_campos": 0.10561276157386601,
+    "ronda": 0,
+    "simulaciones": 3,
+    "nuevas_elegidas": 3
+   },
+   {
+    "conocido_escalares": 0.021911080344580114,
+    "conocido_campos": 0.05505187954986468,
+    "nuevo_escalares": 0.036920801270753145,
+    "nuevo_campos": 0.1051500533358194,
+    "ronda": 1,
+    "simulaciones": 0,
+    "nuevas_elegidas": 0
+   },
+   {
+    "conocido_escalares": 0.020045861805556342,
+    "conocido_campos": 0.05904254043707624,
+    "nuevo_escalares": 0.03421941176929977,
+    "nuevo_campos": 0.1211173286428675,
+    "ronda": 2,
+    "simulaciones": 0,
+    "nuevas_elegidas": 0
+   }
+  ],
+  "promedio_sin_ancla": [
+   {
+    "conocido_escalares": 0.024864385559340008,
+    "conocido_campos": 0.0736860838951543,
+    "nuevo_escalares": 0.03405325890344102,
+    "nuevo_campos": 0.09913993970258161,
+    "ronda": 0,
+    "simulaciones": 4,
+    "nuevas_elegidas": 4
+   },
+   {
+    "conocido_escalares": 0.026578642580716405,
+    "conocido_campos": 0.05584032100159675,
+    "nuevo_escalares": 0.03161708626430482,
+    "nuevo_campos": 0.07711136597208679,
+    "ronda": 1,
+    "simulaciones": 4,
+    "nuevas_elegidas": 4
+   },
+   {
+    "conocido_escalares": 0.021476746085681953,
+    "conocido_campos": 0.06670018000295386,
+    "nuevo_escalares": 0.033070974866859615,
+    "nuevo_campos": 0.09139526635408401,
+    "ronda": 2,
+    "simulaciones": 4,
+    "nuevas_elegidas": 4
+   }
+  ]
+ }
+}

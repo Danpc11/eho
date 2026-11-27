@@ -1,0 +1,355 @@
+{
+ "dominio": "edp1d",
+ "semilla": 0,
+ "inicial": {
+  "conocido_escalares": 0.13451143261045218,
+  "conocido_campos": 0.5663802155759186,
+  "nuevo_escalares": 0.8498012641211972,
+  "nuevo_campos": 5.080632349476218
+ },
+ "estrategias": {
+  "aleatoria": [
+   {
+    "conocido_escalares": 0.10375628166366369,
+    "conocido_campos": 0.48179479502141476,
+    "nuevo_escalares": 0.7287157854880206,
+    "nuevo_campos": 4.445513557642698,
+    "ronda": 0,
+    "simulaciones": 4,
+    "acumuladas": 4,
+    "nuevas_elegidas": 1,
+    "valores": []
+   },
+   {
+    "conocido_escalares": 0.10271550912875682,
+    "conocido_campos": 0.4674556397367269,
+    "nuevo_escalares": 0.7669180141529068,
+    "nuevo_campos": 4.305726129561663,
+    "ronda": 1,
+    "simulaciones": 4,
+    "acumuladas": 8,
+    "nuevas_elegidas": 0,
+    "valores": []
+   },
+   {
+    "conocido_escalares": 0.10363886802224442,
+    "conocido_campos": 0.46464994293637574,
+    "nuevo_escalares": 0.7378076525055803,
+    "nuevo_campos": 3.1726580318063498,
+    "ronda": 2,
+    "simulaciones": 4,
+    "acumuladas": 12,
+    "nuevas_elegidas": 1,
+    "valores": []
+   },
+   {
+    "conocido_escalares": 0.1062405495904386,
+    "conocido_campos": 0.46572188194841146,
+    "nuevo_escalares": 0.6528423118288629,
+    "nuevo_campos": 2.57114237267524,
+    "ronda": 3,
+    "simulaciones": 4,
+    "acumuladas": 16,
+    "nuevas_elegidas": 1,
+    "valores": []
+   }
+  ],
+  "colmena_v05": [
+   {
+    "conocido_escalares": 0.1060412980732508,
+    "conocido_campos": 0.4970216436777264,
+    "nuevo_escalares": 0.8074899376370013,
+    "nuevo_campos": 2.8664089990779757,
+    "ronda": 0,
+    "simulaciones": 4,
+    "acumuladas": 4,
+    "nuevas_elegidas": 4,
+    "valores": [
+     {
+      "valor": 0.991,
+      "novedad": 0.991
+     },
+     {
+      "valor": 0.987,
+      "novedad": 0.987
+     },
+     {
+      "valor": 0.976,
+      "novedad": 0.976
+     },
+     {
+      "valor": 0.981,
+      "novedad": 0.981
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.10828622250119224,
+    "conocido_campos": 0.49485425977036357,
+    "nuevo_escalares": 0.6822988935164176,
+    "nuevo_campos": 1.4536678092554212,
+    "ronda": 1,
+    "simulaciones": 2,
+    "acumuladas": 6,
+    "nuevas_elegidas": 2,
+    "valores": [
+     {
+      "valor": 0.871,
+      "novedad": 0.871
+     },
+     {
+      "valor": 0.839,
+      "novedad": 0.839
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.10006484377663583,
+    "conocido_campos": 0.4796448713168502,
+    "nuevo_escalares": 0.4493271999526769,
+    "nuevo_campos": 1.7309506759047508,
+    "ronda": 2,
+    "simulaciones": 4,
+    "acumuladas": 10,
+    "nuevas_elegidas": 4,
+    "valores": [
+     {
+      "valor": 0.722,
+      "novedad": 0.722
+     },
+     {
+      "valor": 0.701,
+      "novedad": 0.701
+     },
+     {
+      "valor": 0.675,
+      "novedad": 0.675
+     },
+     {
+      "valor": 0.666,
+      "novedad": 0.666
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.10006484377663583,
+    "conocido_campos": 0.4796448713168502,
+    "nuevo_escalares": 0.4493271999526769,
+    "nuevo_campos": 1.7309506759047508,
+    "ronda": 3,
+    "simulaciones": 0,
+    "acumuladas": 10,
+    "nuevas_elegidas": 0,
+    "valores": []
+   }
+  ],
+  "colmena_v06_sin_exploradoras": [
+   {
+    "conocido_escalares": 0.1070470234262757,
+    "conocido_campos": 0.4927717491518706,
+    "nuevo_escalares": 0.775610126554966,
+    "nuevo_campos": 3.0873228665441275,
+    "ronda": 0,
+    "simulaciones": 4,
+    "acumuladas": 4,
+    "nuevas_elegidas": 4,
+    "valores": [
+     {
+      "valor": 0.991,
+      "novedad": 0.991,
+      "error": 0.0
+     },
+     {
+      "valor": 0.987,
+      "novedad": 0.987,
+      "error": 0.0
+     },
+     {
+      "valor": 0.976,
+      "novedad": 0.976,
+      "error": 0.0
+     },
+     {
+      "valor": 0.981,
+      "novedad": 0.981,
+      "error": 0.0
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.1070470234262757,
+    "conocido_campos": 0.4927717491518706,
+    "nuevo_escalares": 0.775610126554966,
+    "nuevo_campos": 3.0873228665441275,
+    "ronda": 1,
+    "simulaciones": 0,
+    "acumuladas": 4,
+    "nuevas_elegidas": 0,
+    "valores": []
+   },
+   {
+    "conocido_escalares": 0.10460546478861943,
+    "conocido_campos": 0.4835650403983891,
+    "nuevo_escalares": 0.6662939054658636,
+    "nuevo_campos": 2.214046440087259,
+    "ronda": 2,
+    "simulaciones": 4,
+    "acumuladas": 8,
+    "nuevas_elegidas": 4,
+    "valores": [
+     {
+      "valor": 0.984,
+      "novedad": 0.821,
+      "error": 0.905
+     },
+     {
+      "valor": 0.982,
+      "novedad": 0.82,
+      "error": 0.9
+     },
+     {
+      "valor": 0.968,
+      "novedad": 0.75,
+      "error": 0.855
+     },
+     {
+      "valor": 0.958,
+      "novedad": 0.781,
+      "error": 0.802
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.1072272285236977,
+    "conocido_campos": 0.4811858809553087,
+    "nuevo_escalares": 0.4150991892674938,
+    "nuevo_campos": 1.3818944245576859,
+    "ronda": 3,
+    "simulaciones": 4,
+    "acumuladas": 12,
+    "nuevas_elegidas": 4,
+    "valores": [
+     {
+      "valor": 0.972,
+      "novedad": 0.685,
+      "error": 0.918
+     },
+     {
+      "valor": 0.964,
+      "novedad": 0.695,
+      "error": 0.899
+     },
+     {
+      "valor": 0.968,
+      "novedad": 0.715,
+      "error": 0.899
+     },
+     {
+      "valor": 0.947,
+      "novedad": 0.67,
+      "error": 0.858
+     }
+    ]
+   }
+  ],
+  "colmena_v06": [
+   {
+    "conocido_escalares": 0.11440496769500896,
+    "conocido_campos": 0.5002484093420208,
+    "nuevo_escalares": 0.7599653482902795,
+    "nuevo_campos": 3.166044184938073,
+    "ronda": 0,
+    "simulaciones": 4,
+    "acumuladas": 4,
+    "nuevas_elegidas": 4,
+    "valores": [
+     {
+      "motivo": "colmena",
+      "valor": 0.991,
+      "novedad": 0.991,
+      "error": 0.0,
+      "inspeccionado": 0.0
+     },
+     {
+      "motivo": "colmena",
+      "valor": 0.987,
+      "novedad": 0.987,
+      "error": 0.0,
+      "inspeccionado": 0.0
+     },
+     {
+      "motivo": "colmena",
+      "valor": 0.976,
+      "novedad": 0.976,
+      "error": 0.0,
+      "inspeccionado": 0.0
+     },
+     {
+      "motivo": "colmena",
+      "valor": 0.981,
+      "novedad": 0.981,
+      "error": 0.0,
+      "inspeccionado": 0.0
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.11788026330759749,
+    "conocido_campos": 0.48080735420808196,
+    "nuevo_escalares": 0.6695496026659384,
+    "nuevo_campos": 2.334626686759293,
+    "ronda": 1,
+    "simulaciones": 1,
+    "acumuladas": 5,
+    "nuevas_elegidas": 0,
+    "valores": [
+     {
+      "motivo": "exploradora",
+      "valor": 0.425,
+      "novedad": 0.292,
+      "error": 0.183,
+      "inspeccionado": 0.185
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.10726975317811593,
+    "conocido_campos": 0.46871049236506224,
+    "nuevo_escalares": 0.6306645071599633,
+    "nuevo_campos": 2.1117978654801846,
+    "ronda": 2,
+    "simulaciones": 1,
+    "acumuladas": 6,
+    "nuevas_elegidas": 0,
+    "valores": [
+     {
+      "motivo": "exploradora",
+      "valor": 0.425,
+      "novedad": 0.285,
+      "error": 0.19,
+      "inspeccionado": 0.458
+     }
+    ]
+   },
+   {
+    "conocido_escalares": 0.10205845185555518,
+    "conocido_campos": 0.4596500957850367,
+    "nuevo_escalares": 0.5329820610349998,
+    "nuevo_campos": 2.3656149143353105,
+    "ronda": 3,
+    "simulaciones": 1,
+    "acumuladas": 7,
+    "nuevas_elegidas": 1,
+    "valores": [
+     {
+      "motivo": "colmena",
+      "valor": 0.984,
+      "novedad": 0.963,
+      "error": 0.658,
+      "inspeccionado": 0.658
+     }
+    ]
+   }
+  ]
+ }
+}
