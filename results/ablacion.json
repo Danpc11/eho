@@ -1,0 +1,1097 @@
+[
+ {
+  "campos_L2rel": 0.053290025393168135,
+  "log_eta_MAE": 0.023658264875411988,
+  "cfl_MAE": 0.00747626115878423,
+  "modelo": "EHO completo",
+  "n_train": 150,
+  "semilla": 0,
+  "segundos": 21.6,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.7448961734771729,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.3411766290664673,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.7164851427078247,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.4277348518371582,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.5960988402366638,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.18626749515533447,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.1758863925933838,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -0.5916067361831665,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -0.5068702697753906,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.5641334652900696,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.5322725772857666,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.41701531410217285,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.6685997247695923,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.7860108613967896,
+    "admitido": false
+   }
+  ],
+  "calibracion": [
+   0.3667691087568341,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.04681952158610026,
+  "log_eta_MAE": 0.028539619048436483,
+  "cfl_MAE": 0.012725389003753662,
+  "modelo": "sin memoria",
+  "n_train": 150,
+  "semilla": 0,
+  "segundos": 20.5,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.406974196434021,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.56202232837677,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.8738701343536377,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.6063072681427002,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.11617457866668701,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.04463648796081543,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -0.5755417346954346,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -0.053232550621032715,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.4604185223579407,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.6852763891220093,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.6964681148529053,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.7447496652603149,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.47030043601989746,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.44257640838623047,
+    "admitido": false
+   }
+  ],
+  "calibracion": [
+   0.0,
+   null
+  ]
+ },
+ {
+  "campos_L2rel": 0.10566755930582682,
+  "log_eta_MAE": 0.045748428106307984,
+  "cfl_MAE": 0.030319596926371258,
+  "modelo": "sin ecologia",
+  "n_train": 150,
+  "semilla": 0,
+  "segundos": 9.4,
+  "parametros": 198507,
+  "especies": 4,
+  "invasiones": [],
+  "calibracion": [
+   0.04104289092535185,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.0910961620012919,
+  "log_eta_MAE": 0.008892865280310313,
+  "cfl_MAE": 0.00463483934601148,
+  "modelo": "MLP base",
+  "n_train": 150,
+  "semilla": 0,
+  "segundos": 1.0,
+  "parametros": 20932,
+  "especies": null,
+  "invasiones": [],
+  "calibracion": null
+ },
+ {
+  "campos_L2rel": 0.07570686022440593,
+  "log_eta_MAE": 0.016614978909492494,
+  "cfl_MAE": 0.010113080342610678,
+  "modelo": "EHO completo",
+  "n_train": 150,
+  "semilla": 1,
+  "segundos": 22.0,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -0.5626673102378845,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.16598397493362427,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.39632344245910645,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.5000665187835693,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": 0.08411574363708496,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.16619688272476196,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.15784645080566406,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.2552614212036133,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.1608372926712036,
+    "admitido": true
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -0.4774353504180908,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -0.3985201120376587,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -0.036369383335113525,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -0.01484602689743042,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -0.06847387552261353,
+    "admitido": false
+   }
+  ],
+  "calibracion": [
+   0.10909063910072281,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.053180114428202314,
+  "log_eta_MAE": 0.014340006907780966,
+  "cfl_MAE": 0.010186666647593181,
+  "modelo": "sin memoria",
+  "n_train": 150,
+  "semilla": 1,
+  "segundos": 19.7,
+  "parametros": 198507,
+  "especies": 3,
+  "invasiones": [
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -0.754284679889679,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.1550205945968628,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.5983844995498657,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.08343178033828735,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.023679792881011963,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.12003189325332642,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -0.08414119482040405,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": -1.0209238529205322,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.3553696870803833,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.8725789785385132,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.2586688995361328,
+    "admitido": true
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -1.045836091041565,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -0.43459320068359375,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.5178173780441284,
+    "admitido": true
+   }
+  ],
+  "calibracion": [
+   0.0,
+   null
+  ]
+ },
+ {
+  "campos_L2rel": 0.06287017504374186,
+  "log_eta_MAE": 0.01992728014787038,
+  "cfl_MAE": 0.010768330891927084,
+  "modelo": "sin ecologia",
+  "n_train": 150,
+  "semilla": 1,
+  "segundos": 8.7,
+  "parametros": 198507,
+  "especies": 4,
+  "invasiones": [],
+  "calibracion": [
+   0.07247194355033404,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.0923145039876302,
+  "log_eta_MAE": 0.007576808432737986,
+  "cfl_MAE": 0.004388457437356313,
+  "modelo": "MLP base",
+  "n_train": 150,
+  "semilla": 1,
+  "segundos": 1.0,
+  "parametros": 20932,
+  "especies": null,
+  "invasiones": [],
+  "calibracion": null
+ },
+ {
+  "campos_L2rel": 0.057533659140268964,
+  "log_eta_MAE": 0.01973875562349955,
+  "cfl_MAE": 0.007426683306694031,
+  "modelo": "EHO completo",
+  "n_train": 150,
+  "semilla": 2,
+  "segundos": 18.0,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.17218279838562012,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.10288631916046143,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.7000694870948792,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.2996889352798462,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.6383699178695679,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.46468520164489746,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.13195323944091797,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.317981481552124,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.3886680603027344,
+    "admitido": false
+   },
+   {
+    "padre": 2,
+    "mutante": 1,
+    "Lambda": 0.33505672216415405,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.9560184478759766,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.4960893392562866,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.32721006870269775,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 2,
+    "Lambda": -0.45540446043014526,
+    "admitido": false
+   }
+  ],
+  "calibracion": [
+   0.1538953639108177,
+   [
+    4.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.039025883674621585,
+  "log_eta_MAE": 0.01484354813893636,
+  "cfl_MAE": 0.009735999405384064,
+  "modelo": "sin memoria",
+  "n_train": 150,
+  "semilla": 2,
+  "segundos": 19.7,
+  "parametros": 198507,
+  "especies": 3,
+  "invasiones": [
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.46903908252716064,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.15461242198944092,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.20848572254180908,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.5764102935791016,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.3164701461791992,
+    "admitido": false
+   },
+   {
+    "padre": 2,
+    "mutante": 1,
+    "Lambda": 0.824112057685852,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.9615694284439087,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.7040759325027466,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.6120392084121704,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 2,
+    "Lambda": 0.9123035669326782,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -1.0480480194091797,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.5889346599578857,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.6652170419692993,
+    "admitido": false
+   },
+   {
+    "padre": 2,
+    "mutante": 1,
+    "Lambda": 0.14626872539520264,
+    "admitido": true
+   }
+  ],
+  "calibracion": [
+   0.0,
+   null
+  ]
+ },
+ {
+  "campos_L2rel": 0.06281664530436198,
+  "log_eta_MAE": 0.026036582390467324,
+  "cfl_MAE": 0.008078279097874959,
+  "modelo": "sin ecologia",
+  "n_train": 150,
+  "semilla": 2,
+  "segundos": 8.7,
+  "parametros": 198507,
+  "especies": 4,
+  "invasiones": [],
+  "calibracion": [
+   0.15491639814241187,
+   [
+    4.0,
+    0.5
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.09256669521331787,
+  "log_eta_MAE": 0.00844657450914383,
+  "cfl_MAE": 0.003961189438899358,
+  "modelo": "MLP base",
+  "n_train": 150,
+  "semilla": 2,
+  "segundos": 1.2,
+  "parametros": 20932,
+  "especies": null,
+  "invasiones": [],
+  "calibracion": null
+ },
+ {
+  "campos_L2rel": 0.057687902450561525,
+  "log_eta_MAE": 0.020546759565671285,
+  "cfl_MAE": 0.007789996763070424,
+  "modelo": "EHO completo",
+  "n_train": 600,
+  "semilla": 0,
+  "segundos": 12.5,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -1.6980301141738892,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": 0.19315004348754883,
+    "admitido": true
+   },
+   {
+    "padre": 1,
+    "mutante": 2,
+    "Lambda": 0.09864616394042969,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.34403061866760254,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.19598042964935303,
+    "admitido": false
+   }
+  ],
+  "calibracion": [
+   0.0,
+   null
+  ]
+ },
+ {
+  "campos_L2rel": 0.03857143084208171,
+  "log_eta_MAE": 0.01823546230792999,
+  "cfl_MAE": 0.007849032680193583,
+  "modelo": "sin memoria",
+  "n_train": 600,
+  "semilla": 0,
+  "segundos": 13.5,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -1.5478196144104004,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.6518783569335938,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.12577509880065918,
+    "admitido": true
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -1.3695735931396484,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.330324649810791,
+    "admitido": true
+   }
+  ],
+  "calibracion": [
+   0.0,
+   null
+  ]
+ },
+ {
+  "campos_L2rel": 0.04743334690729777,
+  "log_eta_MAE": 0.017961729566256204,
+  "cfl_MAE": 0.006761857271194458,
+  "modelo": "sin ecologia",
+  "n_train": 600,
+  "semilla": 0,
+  "segundos": 9.8,
+  "parametros": 198507,
+  "especies": 4,
+  "invasiones": [],
+  "calibracion": [
+   0.10384782503303425,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.08247666835784911,
+  "log_eta_MAE": 0.010529995759328207,
+  "cfl_MAE": 0.008971959451834361,
+  "modelo": "MLP base",
+  "n_train": 600,
+  "semilla": 0,
+  "segundos": 1.6,
+  "parametros": 20932,
+  "especies": null,
+  "invasiones": [],
+  "calibracion": null
+ },
+ {
+  "campos_L2rel": 0.04726207415262858,
+  "log_eta_MAE": 0.013347302079200745,
+  "cfl_MAE": 0.006550146738688151,
+  "modelo": "EHO completo",
+  "n_train": 600,
+  "semilla": 1,
+  "segundos": 12.4,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": -0.3853633403778076,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.28121477365493774,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.14075946807861328,
+    "admitido": true
+   },
+   {
+    "padre": 1,
+    "mutante": 0,
+    "Lambda": 0.08634471893310547,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.0893024206161499,
+    "admitido": true
+   }
+  ],
+  "calibracion": [
+   0.25788501197394276,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.04912181854248047,
+  "log_eta_MAE": 0.03611681342124939,
+  "cfl_MAE": 0.0360782798131307,
+  "modelo": "sin memoria",
+  "n_train": 600,
+  "semilla": 1,
+  "segundos": 14.4,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 3,
+    "mutante": 0,
+    "Lambda": 0.18113839626312256,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 2,
+    "Lambda": 0.08754730224609375,
+    "admitido": true
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": -0.5734840035438538,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.10361355543136597,
+    "admitido": false
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": 0.5858147740364075,
+    "admitido": true
+   }
+  ],
+  "calibracion": [
+   0.0,
+   null
+  ]
+ },
+ {
+  "campos_L2rel": 0.04531659762064616,
+  "log_eta_MAE": 0.01921625812848409,
+  "cfl_MAE": 0.007838936050732931,
+  "modelo": "sin ecologia",
+  "n_train": 600,
+  "semilla": 1,
+  "segundos": 11.7,
+  "parametros": 198507,
+  "especies": 4,
+  "invasiones": [],
+  "calibracion": [
+   0.31029876722527727,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.08376716136932373,
+  "log_eta_MAE": 0.011954877376556396,
+  "cfl_MAE": 0.00486178974310557,
+  "modelo": "MLP base",
+  "n_train": 600,
+  "semilla": 1,
+  "segundos": 1.6,
+  "parametros": 20932,
+  "especies": null,
+  "invasiones": [],
+  "calibracion": null
+ },
+ {
+  "campos_L2rel": 0.04055360794067383,
+  "log_eta_MAE": 0.011045857667922973,
+  "cfl_MAE": 0.004437785595655441,
+  "modelo": "EHO completo",
+  "n_train": 600,
+  "semilla": 2,
+  "segundos": 14.0,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.6528842449188232,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 2,
+    "Lambda": 0.6429876089096069,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.7463805675506592,
+    "admitido": false
+   },
+   {
+    "padre": 2,
+    "mutante": 1,
+    "Lambda": 0.02500969171524048,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.906611442565918,
+    "admitido": false
+   }
+  ],
+  "calibracion": [
+   0.2904850802978348,
+   [
+    16.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.029869862397511802,
+  "log_eta_MAE": 0.012638347744941712,
+  "cfl_MAE": 0.006944249173005422,
+  "modelo": "sin memoria",
+  "n_train": 600,
+  "semilla": 2,
+  "segundos": 14.6,
+  "parametros": 198507,
+  "especies": 2,
+  "invasiones": [
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -0.8846210241317749,
+    "admitido": false
+   },
+   {
+    "padre": 3,
+    "mutante": 1,
+    "Lambda": 0.47358185052871704,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 2,
+    "Lambda": -0.7196556329727173,
+    "admitido": false
+   },
+   {
+    "padre": 1,
+    "mutante": 2,
+    "Lambda": 0.8204642534255981,
+    "admitido": true
+   },
+   {
+    "padre": 0,
+    "mutante": 1,
+    "Lambda": -1.1540671586990356,
+    "admitido": false
+   }
+  ],
+  "calibracion": [
+   0.0,
+   null
+  ]
+ },
+ {
+  "campos_L2rel": 0.05243262926737467,
+  "log_eta_MAE": 0.011721110939979552,
+  "cfl_MAE": 0.006180481215318044,
+  "modelo": "sin ecologia",
+  "n_train": 600,
+  "semilla": 2,
+  "segundos": 11.6,
+  "parametros": 198507,
+  "especies": 4,
+  "invasiones": [],
+  "calibracion": [
+   0.24318540697656688,
+   [
+    32.0,
+    1.0
+   ]
+  ]
+ },
+ {
+  "campos_L2rel": 0.0878574800491333,
+  "log_eta_MAE": 0.006847533086935679,
+  "cfl_MAE": 0.00345689058303833,
+  "modelo": "MLP base",
+  "n_train": 600,
+  "semilla": 2,
+  "segundos": 1.7,
+  "parametros": 20932,
+  "especies": null,
+  "invasiones": [],
+  "calibracion": null
+ }
+]

@@ -1,0 +1,300 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 0,
+ "presupuesto_por_ronda": 4,
+ "rondas": 4,
+ "inicial": {
+  "conocido_escalares": 0.3071043451782316,
+  "conocido_campos": 0.5053602620027959,
+  "nuevo_escalares": 1.4361087488941848,
+  "nuevo_campos": 6.086294419132173
+ },
+ "estrategias": {
+  "aleatoria": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 1,
+    "conocido_escalares": 0.29036876396276057,
+    "conocido_campos": 0.4945984515361488,
+    "nuevo_escalares": 1.151419424219057,
+    "nuevo_campos": 3.2610742012038827
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 0,
+    "conocido_escalares": 0.24640869162976742,
+    "conocido_campos": 0.462571173440665,
+    "nuevo_escalares": 1.1152570622507483,
+    "nuevo_campos": 3.545294003561139
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 1,
+    "conocido_escalares": 0.28652032697573304,
+    "conocido_campos": 0.4700888069346547,
+    "nuevo_escalares": 1.197270484874025,
+    "nuevo_campos": 5.744367658160627
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 1,
+    "conocido_escalares": 0.25043879356235266,
+    "conocido_campos": 0.463477757293731,
+    "nuevo_escalares": 0.8402616179082543,
+    "nuevo_campos": 4.888648168183863
+   }
+  ],
+  "novedad_codiciosa": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.310494591249153,
+    "conocido_campos": 0.48968258406966925,
+    "nuevo_escalares": 1.128017327748239,
+    "nuevo_campos": 2.7154173916205764
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 0,
+    "conocido_escalares": 0.30191419762559235,
+    "conocido_campos": 0.4964249939657748,
+    "nuevo_escalares": 0.9208356635645032,
+    "nuevo_campos": 5.570550841279328
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.24757052748464048,
+    "conocido_campos": 0.47102631628513336,
+    "nuevo_escalares": 0.8000733337830752,
+    "nuevo_campos": 2.5763496793806553
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 2,
+    "conocido_escalares": 0.2511376589536667,
+    "conocido_campos": 0.4596878560259938,
+    "nuevo_escalares": 0.6881230042781681,
+    "nuevo_campos": 2.085486399009824
+   }
+  ],
+  "valor_codicioso": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.26359449210576713,
+    "conocido_campos": 0.47648717602714896,
+    "nuevo_escalares": 1.0888717791531235,
+    "nuevo_campos": 3.0105253299698234
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.3060204047942534,
+    "conocido_campos": 0.4895117855630815,
+    "nuevo_escalares": 0.699541216949001,
+    "nuevo_campos": 2.4808499617502093
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 4,
+    "conocido_escalares": 0.2691693645901978,
+    "conocido_campos": 0.4985986608080566,
+    "nuevo_escalares": 0.686165333725512,
+    "nuevo_campos": 3.0579422619193792
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 4,
+    "conocido_escalares": 0.24419156182557344,
+    "conocido_campos": 0.46919754054397345,
+    "nuevo_escalares": 0.5985672315582633,
+    "nuevo_campos": 2.437785134650767
+   }
+  ],
+  "varianza": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.29770522424951196,
+    "conocido_campos": 0.47879474563524127,
+    "nuevo_escalares": 1.1030288832262158,
+    "nuevo_campos": 3.227398345246911
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.2784250811673701,
+    "conocido_campos": 0.4836765234358609,
+    "nuevo_escalares": 0.6642575263977051,
+    "nuevo_campos": 2.3379961792379618
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 4,
+    "conocido_escalares": 0.2975489685777575,
+    "conocido_campos": 0.4810739257372916,
+    "nuevo_escalares": 0.5697885898407549,
+    "nuevo_campos": 2.3079896718263626
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.2899591773748398,
+    "conocido_campos": 0.4792839651927352,
+    "nuevo_escalares": 0.6050864541903138,
+    "nuevo_campos": 2.1686111502349377
+   }
+  ],
+  "coreset": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 1,
+    "conocido_escalares": 0.2937448510201648,
+    "conocido_campos": 0.481738009955734,
+    "nuevo_escalares": 1.1358065400272608,
+    "nuevo_campos": 5.43652131408453
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 0,
+    "conocido_escalares": 0.2629746962338686,
+    "conocido_campos": 0.46796939894557,
+    "nuevo_escalares": 1.019289861433208,
+    "nuevo_campos": 4.171220012940466
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 1,
+    "conocido_escalares": 0.2455640600528568,
+    "conocido_campos": 0.45874390890821815,
+    "nuevo_escalares": 0.8256372651085258,
+    "nuevo_campos": 2.739532078616321
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.2727645441191271,
+    "conocido_campos": 0.4703179900534451,
+    "nuevo_escalares": 0.7243041687179357,
+    "nuevo_campos": 2.5779482144862413
+   }
+  ],
+  "colmena": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 1,
+    "nuevas": 1,
+    "conocido_escalares": 0.2684642397798598,
+    "conocido_campos": 0.4785669110715389,
+    "nuevo_escalares": 1.2520907409489155,
+    "nuevo_campos": 5.179014069028199
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 2,
+    "nuevas": 1,
+    "conocido_escalares": 0.25657120696268976,
+    "conocido_campos": 0.4673913884907961,
+    "nuevo_escalares": 1.047874929383397,
+    "nuevo_campos": 4.884818367660046
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 3,
+    "nuevas": 0,
+    "conocido_escalares": 0.2567173565039411,
+    "conocido_campos": 0.4627886866219342,
+    "nuevo_escalares": 0.9972440239507705,
+    "nuevo_campos": 6.581322241574526
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 3,
+    "nuevas": 0,
+    "conocido_escalares": 0.2567173565039411,
+    "conocido_campos": 0.4627886866219342,
+    "nuevo_escalares": 0.9972440239507705,
+    "nuevo_campos": 6.581322241574526
+   }
+  ]
+ },
+ "colmena_paro": {
+  "simulaciones": 3,
+  "simulaciones_codicioso": 16,
+  "error_nuevo": 0.9972440239507705,
+  "codicioso_mismas_sim": 1.1756810215883888,
+  "a_mismas_sim": -0.17843699763761833,
+  "codicioso_presupuesto_completo": 0.5985672315582633,
+  "perdida_por_parar": 0.3986767923925072
+ },
+ "segundos": 741.8
+}

@@ -1,0 +1,84 @@
+{
+ "dominio": "sangre",
+ "semilla": 0,
+ "variantes": {
+  "sin memoria": {
+   "segundos": 19.7,
+   "especies": 2,
+   "k=0": {
+    "campos_L2rel": 0.06659262577692668,
+    "escalares_MAE": 0.028072045370936393
+   },
+   "k=2": {
+    "campos_L2rel": 0.06528917387127876,
+    "escalares_MAE": 0.027674257680773737
+   },
+   "k=5": {
+    "campos_L2rel": 0.06640073571886335,
+    "escalares_MAE": 0.02828604749270848
+   },
+   "ajuste_fino k=2": {
+    "campos_L2rel": 0.03298687092959881,
+    "escalares_MAE": 0.020005377009510994
+   },
+   "ajuste_fino k=5": {
+    "campos_L2rel": 0.025196074108992304,
+    "escalares_MAE": 0.009720502767179694
+   }
+  },
+  "episodica": {
+   "segundos": 20.0,
+   "especies": 2,
+   "k=0": {
+    "campos_L2rel": 0.07650437653064728,
+    "escalares_MAE": 0.02985997162759304
+   },
+   "k=2": {
+    "campos_L2rel": 0.07571356236934662,
+    "escalares_MAE": 0.02938601706176996
+   },
+   "k=5": {
+    "campos_L2rel": 0.07722408728940146,
+    "escalares_MAE": 0.028803864334310803
+   }
+  },
+  "completa": {
+   "segundos": 33.7,
+   "especies": 2,
+   "k=0": {
+    "campos_L2rel": 0.05560592251519362,
+    "escalares_MAE": 0.02615876685207089
+   },
+   "k=2": {
+    "campos_L2rel": 0.051897327452898025,
+    "escalares_MAE": 0.011521700005978346
+   },
+   "k=5": {
+    "campos_L2rel": 0.05053180190069335,
+    "escalares_MAE": 0.010337525872247559
+   },
+   "mpc": {
+    "nodos": 512,
+    "aristas": 2974,
+    "bloqueadas": 5,
+    "D_media": 0.05603352189064026
+   }
+  },
+  "oraculo": {
+   "segundos": 19.6,
+   "especies": 2,
+   "k=0": {
+    "campos_L2rel": 0.041104511668284736,
+    "escalares_MAE": 0.004986141404757897
+   },
+   "k=2": {
+    "campos_L2rel": 0.04079134657979012,
+    "escalares_MAE": 0.0049596396461129184
+   },
+   "k=5": {
+    "campos_L2rel": 0.03950029739311763,
+    "escalares_MAE": 0.00497708898037672
+   }
+  }
+ }
+}

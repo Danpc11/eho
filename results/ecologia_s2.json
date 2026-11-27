@@ -1,0 +1,129 @@
+{
+ "semilla": 2,
+ "variantes": {
+  "sin_ecologia": {
+   "etapas": [
+    {
+     "tras": "sano",
+     "sano": 0.3298667311513176,
+     "prediabetes": 0.35675356506059563,
+     "dt2": 0.40104101349910104,
+     "especies": 4
+    },
+    {
+     "tras": "prediabetes",
+     "sano": 0.11612078027489284,
+     "prediabetes": 0.12259933127400775,
+     "dt2": 0.1569116384877513,
+     "especies": 4
+    },
+    {
+     "tras": "dt2",
+     "sano": 0.12504071036043266,
+     "prediabetes": 0.10558814679582915,
+     "dt2": 0.10128674741523962,
+     "especies": 4
+    }
+   ],
+   "error_final_medio": 0.11063853485716714,
+   "olvido_sano": -0.20482602079088494
+  },
+  "ecologia": {
+   "etapas": [
+    {
+     "tras": "sano",
+     "sano": 0.46009088680148125,
+     "prediabetes": 0.45818597947557765,
+     "dt2": 0.4301754633585612,
+     "especies": 2,
+     "chesson": {
+      "especies": 2,
+      "pares": 1,
+      "pares_que_coexisten": 0,
+      "fraccion_coexistencia": 0.0,
+      "solapamiento_medio": 0.8625096678733826
+     }
+    },
+    {
+     "tras": "prediabetes",
+     "sano": 0.13074355882902938,
+     "prediabetes": 0.131076925744613,
+     "dt2": 0.1450628493912518,
+     "especies": 2,
+     "chesson": {
+      "especies": 2,
+      "pares": 1,
+      "pares_que_coexisten": 0,
+      "fraccion_coexistencia": 0.0,
+      "solapamiento_medio": 0.9662255644798279
+     }
+    },
+    {
+     "tras": "dt2",
+     "sano": 0.12920112162828445,
+     "prediabetes": 0.11181465412179628,
+     "dt2": 0.12771629681810737,
+     "especies": 2,
+     "chesson": {
+      "especies": 2,
+      "pares": 1,
+      "pares_que_coexisten": 0,
+      "fraccion_coexistencia": 0.0,
+      "solapamiento_medio": 0.8599220514297485
+     }
+    }
+   ],
+   "error_final_medio": 0.1229106908560627,
+   "olvido_sano": -0.3308897651731968
+  },
+  "sucesion": {
+   "etapas": [
+    {
+     "tras": "sano",
+     "sano": 0.519543884942929,
+     "prediabetes": 0.5398773724834124,
+     "dt2": 0.5483516715466976,
+     "especies": 2,
+     "chesson": {
+      "especies": 2,
+      "pares": 1,
+      "pares_que_coexisten": 0,
+      "fraccion_coexistencia": 0.0,
+      "solapamiento_medio": 0.9895720481872559
+     }
+    },
+    {
+     "tras": "prediabetes",
+     "sano": 0.11461696719440322,
+     "prediabetes": 0.13561216741800308,
+     "dt2": 0.18786832566062608,
+     "especies": 2,
+     "chesson": {
+      "especies": 2,
+      "pares": 1,
+      "pares_que_coexisten": 0,
+      "fraccion_coexistencia": 0.0,
+      "solapamiento_medio": 0.8846096396446228
+     }
+    },
+    {
+     "tras": "dt2",
+     "sano": 0.12429410979772607,
+     "prediabetes": 0.11257065879181027,
+     "dt2": 0.12937894323840737,
+     "especies": 2,
+     "chesson": {
+      "especies": 2,
+      "pares": 1,
+      "pares_que_coexisten": 0,
+      "fraccion_coexistencia": 0.0,
+      "solapamiento_medio": 0.9387184977531433
+     }
+    }
+   ],
+   "error_final_medio": 0.12208123727598123,
+   "olvido_sano": -0.395249775145203
+  }
+ },
+ "segundos": 34.1
+}

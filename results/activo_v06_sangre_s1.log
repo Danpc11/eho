@@ -1,0 +1,19 @@
+[exp_sangre] entrenando 4 agentes en cpu (2 fuente(s) de datos)
+  agente 1/4 listo (quemada, {'n_slices': 8, 'd': 40})
+  agente 2/4 listo (carreau, {'n_slices': 12, 'd': 48})
+  agente 3/4 listo (quemada, {'n_slices': 16, 'd': 56})
+  agente 4/4 listo (carreau, {'n_slices': 12, 'd': 40})
+[exp_sangre] listo en 169 s
+inicial {'conocido_escalares': 0.029436904776957817, 'conocido_campos': 0.07923464960185811, 'nuevo_escalares': 0.09343908555456437, 'nuevo_campos': 0.19475992559455335}
+aleatoria {'conocido_escalares': 0.0247, 'conocido_campos': 0.0595, 'nuevo_escalares': 0.058, 'nuevo_campos': 0.1449, 'ronda': 0, 'simulaciones': 4, 'acumuladas': 4, 'nuevas_elegidas': 1}
+aleatoria {'conocido_escalares': 0.0293, 'conocido_campos': 0.0624, 'nuevo_escalares': 0.0459, 'nuevo_campos': 0.1117, 'ronda': 1, 'simulaciones': 4, 'acumuladas': 8, 'nuevas_elegidas': 1}
+aleatoria {'conocido_escalares': 0.0276, 'conocido_campos': 0.0574, 'nuevo_escalares': 0.0374, 'nuevo_campos': 0.1088, 'ronda': 2, 'simulaciones': 4, 'acumuladas': 12, 'nuevas_elegidas': 1}
+aleatoria {'conocido_escalares': 0.0233, 'conocido_campos': 0.0644, 'nuevo_escalares': 0.0356, 'nuevo_campos': 0.0954, 'ronda': 3, 'simulaciones': 4, 'acumuladas': 16, 'nuevas_elegidas': 1}
+colmena_v05 {'conocido_escalares': 0.0247, 'conocido_campos': 0.0598, 'nuevo_escalares': 0.0488, 'nuevo_campos': 0.1474, 'ronda': 0, 'simulaciones': 1, 'acumuladas': 1, 'nuevas_elegidas': 1}
+colmena_v05 {'conocido_escalares': 0.0273, 'conocido_campos': 0.0655, 'nuevo_escalares': 0.0444, 'nuevo_campos': 0.113, 'ronda': 1, 'simulaciones': 4, 'acumuladas': 5, 'nuevas_elegidas': 4}
+colmena_v05 {'conocido_escalares': 0.0273, 'conocido_campos': 0.0655, 'nuevo_escalares': 0.0444, 'nuevo_campos': 0.113, 'ronda': 2, 'simulaciones': 0, 'acumuladas': 5, 'nuevas_elegidas': 0}
+colmena_v05 {'conocido_escalares': 0.0377, 'conocido_campos': 0.0594, 'nuevo_escalares': 0.0564, 'nuevo_campos': 0.1076, 'ronda': 3, 'simulaciones': 1, 'acumuladas': 6, 'nuevas_elegidas': 1}
+colmena_v06 {'conocido_escalares': 0.0247, 'conocido_campos': 0.0598, 'nuevo_escalares': 0.0488, 'nuevo_campos': 0.1474, 'ronda': 0, 'simulaciones': 1, 'acumuladas': 1, 'nuevas_elegidas': 1}
+colmena_v06 {'conocido_escalares': 0.0247, 'conocido_campos': 0.0598, 'nuevo_escalares': 0.0488, 'nuevo_campos': 0.1474, 'ronda': 1, 'simulaciones': 0, 'acumuladas': 1, 'nuevas_elegidas': 0}
+colmena_v06 {'conocido_escalares': 0.0235, 'conocido_campos': 0.0673, 'nuevo_escalares': 0.0532, 'nuevo_campos': 0.109, 'ronda': 2, 'simulaciones': 4, 'acumuladas': 5, 'nuevas_elegidas': 3}
+colmena_v06 {'conocido_escalares': 0.0302, 'conocido_campos': 0.0594, 'nuevo_escalares': 0.0349, 'nuevo_campos': 0.0949, 'ronda': 3, 'simulaciones': 4, 'acumuladas': 9, 'nuevas_elegidas': 3}

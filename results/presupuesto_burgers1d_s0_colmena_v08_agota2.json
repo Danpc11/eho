@@ -1,0 +1,80 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 0,
+ "presupuesto_por_ronda": 4,
+ "rondas": 6,
+ "inicial": {
+  "conocido_escalares": 0.29616289772093296,
+  "conocido_campos": 0.5161062469705939,
+  "nuevo_escalares": 1.4600802371278405,
+  "nuevo_campos": 5.188691810704768
+ },
+ "estrategias": {
+  "colmena_v08": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.29616289772093296,
+    "conocido_campos": 0.5161062469705939,
+    "nuevo_escalares": 1.4600802371278405,
+    "nuevo_campos": 5.188691810704768
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.3086374003905803,
+    "conocido_campos": 0.49560826178640127,
+    "nuevo_escalares": 1.0533262509852648,
+    "nuevo_campos": 3.608014903962612
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.26429764460772276,
+    "conocido_campos": 0.47577598271891475,
+    "nuevo_escalares": 0.7006941714789718,
+    "nuevo_campos": 2.030564702115953
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.24087542877532542,
+    "conocido_campos": 0.46797233121469617,
+    "nuevo_escalares": 0.6119852974079549,
+    "nuevo_campos": 2.7217565858736634
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.26938347646500915,
+    "conocido_campos": 0.469555486459285,
+    "nuevo_escalares": 0.5812857348937541,
+    "nuevo_campos": 1.7653728062286973
+   },
+   {
+    "ronda": 4,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.26938347646500915,
+    "conocido_campos": 0.469555486459285,
+    "nuevo_escalares": 0.5812857348937541,
+    "nuevo_campos": 1.7653728062286973
+   },
+   {
+    "ronda": 5,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.26938347646500915,
+    "conocido_campos": 0.469555486459285,
+    "nuevo_escalares": 0.5812857348937541,
+    "nuevo_campos": 1.7653728062286973
+   }
+  ]
+ },
+ "segundos": 202.4,
+ "agota_en_ronda": 2
+}

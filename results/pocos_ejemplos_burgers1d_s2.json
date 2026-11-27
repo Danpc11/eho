@@ -1,0 +1,122 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 2,
+ "variantes": {
+  "memoria_ninguna": {
+   "k=0": {
+    "campos_L2rel": 0.4972242375214895,
+    "escalares_MAE": 0.34870050350824994
+   },
+   "k=1": {
+    "campos_L2rel": 0.49226614561947907,
+    "escalares_MAE": 0.3489587740464644
+   },
+   "k=2": {
+    "campos_L2rel": 0.4883276355266571,
+    "escalares_MAE": 0.3461660528182983
+   },
+   "k=5": {
+    "campos_L2rel": 0.48403418915612356,
+    "escalares_MAE": 0.32337795751435416
+   },
+   "segundos_adaptacion_k=5": 0.00446700200000123
+  },
+  "memoria_episodica": {
+   "k=0": {
+    "campos_L2rel": 0.4873231907685598,
+    "escalares_MAE": 0.3436118632555008
+   },
+   "k=1": {
+    "campos_L2rel": 0.44657972075722435,
+    "escalares_MAE": 0.22046097191897304
+   },
+   "k=2": {
+    "campos_L2rel": 0.44411266446113584,
+    "escalares_MAE": 0.203151815533638
+   },
+   "k=5": {
+    "campos_L2rel": 0.43940881320408415,
+    "escalares_MAE": 0.18381879585129873
+   },
+   "segundos_adaptacion_k=5": 0.007905383649995202
+  },
+  "memoria_completa": {
+   "k=0": {
+    "campos_L2rel": 0.4494586904843648,
+    "escalares_MAE": 0.2797379752000173
+   },
+   "k=1": {
+    "campos_L2rel": 0.4295320369980552,
+    "escalares_MAE": 0.27275424166159196
+   },
+   "k=2": {
+    "campos_L2rel": 0.4225489485263825,
+    "escalares_MAE": 0.23923021912574768
+   },
+   "k=5": {
+    "campos_L2rel": 0.41461819069726125,
+    "escalares_MAE": 0.22837436028889246
+   },
+   "segundos_adaptacion_k=5": 0.010682972849997441
+  },
+  "ajuste_fino_afinado": {
+   "k=1": {
+    "campos_L2rel": 0.5319103197617965,
+    "escalares_MAE": 0.3651846425099806,
+    "segundos_por_episodio": 0.08580045665003126,
+    "hiperparametros": {
+     "steps": 10,
+     "lr": 0.001,
+     "mode": "todo"
+    }
+   },
+   "k=2": {
+    "campos_L2rel": 0.5107819139957428,
+    "escalares_MAE": 0.34685173869132996,
+    "segundos_por_episodio": 0.0881761475499843,
+    "hiperparametros": {
+     "steps": 10,
+     "lr": 0.001,
+     "mode": "todo"
+    }
+   },
+   "k=5": {
+    "campos_L2rel": 0.5131591558456421,
+    "escalares_MAE": 0.330599548135485,
+    "segundos_por_episodio": 0.33707154805003936,
+    "hiperparametros": {
+     "steps": 30,
+     "lr": 0.001,
+     "mode": "todo"
+    }
+   }
+  },
+  "mezcla_rapido_lento": {
+   "k=1": {
+    "escalares_MAE": 0.25333932042121887,
+    "campos_L2rel": 0.4438745379447937,
+    "peso_memoria": [
+     0.8217947483062744,
+     0.5958994626998901
+    ]
+   },
+   "k=2": {
+    "escalares_MAE": 0.226220965385437,
+    "campos_L2rel": 0.42990902066230774,
+    "peso_memoria": [
+     0.8196170926094055,
+     0.6066552400588989
+    ]
+   },
+   "k=5": {
+    "escalares_MAE": 0.217002734541893,
+    "campos_L2rel": 0.41931942105293274,
+    "peso_memoria": [
+     0.771187424659729,
+     0.5401538610458374
+    ]
+   }
+  }
+ },
+ "segundos": 122.7
+}
