@@ -1,0 +1,48 @@
+{
+ "dominio": "sangre",
+ "semilla": 1,
+ "modos": {
+  "media": {
+   "conocido": {
+    "MAE": 0.02999771386384964,
+    "MAE_aceptados": 0.02815561555325985,
+    "cobertura": 0.7847222089767456,
+    "MAE_agentes": 0.03603515028953552
+   },
+   "intermedio": {
+    "MAE": 0.022200942039489746,
+    "MAE_aceptados": 0.021919388324022293,
+    "cobertura": 0.8611111044883728,
+    "MAE_agentes": 0.0293875839561224
+   }
+  },
+  "ponderada": {
+   "conocido": {
+    "MAE": 0.02855321392416954,
+    "MAE_aceptados": 0.02695210836827755,
+    "cobertura": 0.7847222089767456,
+    "MAE_agentes": 0.03603515028953552
+   },
+   "intermedio": {
+    "MAE": 0.022945396602153778,
+    "MAE_aceptados": 0.022207332774996758,
+    "cobertura": 0.8611111044883728,
+    "MAE_agentes": 0.0293875839561224
+   }
+  },
+  "ganador": {
+   "conocido": {
+    "MAE": 0.028695855289697647,
+    "MAE_aceptados": 0.023578815162181854,
+    "cobertura": 0.7847222089767456,
+    "MAE_agentes": 0.03603515028953552
+   },
+   "intermedio": {
+    "MAE": 0.02257336862385273,
+    "MAE_aceptados": 0.021337304264307022,
+    "cobertura": 0.8611111044883728,
+    "MAE_agentes": 0.0293875839561224
+   }
+  }
+ }
+}

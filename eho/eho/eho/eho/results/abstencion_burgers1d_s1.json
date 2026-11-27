@@ -1,0 +1,213 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 1,
+ "riesgo": 0.1,
+ "delta": 0.1,
+ "tasa_fallo_prueba": 0.2666666805744171,
+ "ms_por_prediccion_colmena": 41.386154083333324,
+ "metodos": {
+  "desviacion": {
+   "auroc_fallo": 0.7365845959595959,
+   "aurc": 0.6407303214073181,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.8277778029441833,
+     "riesgo_real": 0.20469798147678375
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 1.0,
+     "riesgo_real": 0.2666666805744171
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "mad": {
+   "auroc_fallo": 0.6631944444444444,
+   "aurc": 0.709254264831543,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.9916666746139526,
+     "riesgo_real": 0.26050421595573425
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "distancia": {
+   "auroc_fallo": 0.7383601641414141,
+   "aurc": 0.6359328031539917,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.8388888835906982,
+     "riesgo_real": 0.20860926806926727
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.9972222447395325,
+     "riesgo_real": 0.2646239697933197
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "inspeccion": {
+   "auroc_fallo": 0.5767045454545454,
+   "aurc": 0.8308287858963013,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 1.0,
+     "riesgo_real": 0.2666666805744171
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "confianza": {
+   "auroc_fallo": 0.5693655303030303,
+   "aurc": 0.8408372402191162,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 1.0,
+     "riesgo_real": 0.2666666805744171
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "colmena": {
+   "auroc_fallo": 0.6827256944444444,
+   "aurc": 0.6824716925621033,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 1.0,
+     "riesgo_real": 0.2666666805744171
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "clasificador": {
+   "auroc_fallo": 0.7316919191919192,
+   "aurc": 0.6450821757316589,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.7944444417953491,
+     "riesgo_real": 0.18881118297576904
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 1.0,
+     "riesgo_real": 0.2666666805744171
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "dominio": "edp1d",
+ "semilla": 1,
+ "modos": {
+  "media": {
+   "conocido": {
+    "MAE": 0.10065557807683945,
+    "MAE_aceptados": 0.09746970981359482,
+    "cobertura": 0.8333333134651184,
+    "MAE_agentes": 0.13650467991828918
+   },
+   "intermedio": {
+    "MAE": 0.11557126045227051,
+    "MAE_aceptados": 0.11341189593076706,
+    "cobertura": 0.9236111044883728,
+    "MAE_agentes": 0.14516621828079224
+   }
+  },
+  "ponderada": {
+   "conocido": {
+    "MAE": 0.10207304358482361,
+    "MAE_aceptados": 0.09858281165361404,
+    "cobertura": 0.8333333134651184,
+    "MAE_agentes": 0.13650467991828918
+   },
+   "intermedio": {
+    "MAE": 0.11693208664655685,
+    "MAE_aceptados": 0.11412656307220459,
+    "cobertura": 0.9236111044883728,
+    "MAE_agentes": 0.14516621828079224
+   }
+  },
+  "ganador": {
+   "conocido": {
+    "MAE": 0.11741966754198074,
+    "MAE_aceptados": 0.11085861176252365,
+    "cobertura": 0.8333333134651184,
+    "MAE_agentes": 0.13650467991828918
+   },
+   "intermedio": {
+    "MAE": 0.13931675255298615,
+    "MAE_aceptados": 0.1375356912612915,
+    "cobertura": 0.9236111044883728,
+    "MAE_agentes": 0.14516621828079224
+   }
+  }
+ }
+}

@@ -1,0 +1,213 @@
+{
+ "dominio": "sangre",
+ "semilla": 1,
+ "riesgo": 0.1,
+ "delta": 0.1,
+ "tasa_fallo_prueba": 0.27222222089767456,
+ "ms_por_prediccion_colmena": 31.13212369444448,
+ "metodos": {
+  "desviacion": {
+   "auroc_fallo": 0.7839616762735628,
+   "aurc": 0.599433422088623,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": true,
+     "cobertura": 0.6499999761581421,
+     "riesgo_real": 0.14102564752101898
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.9972222447395325,
+     "riesgo_real": 0.27019497752189636
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.9972222447395325,
+     "riesgo_real": 0.27019497752189636
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "mad": {
+   "auroc_fallo": 0.6153606480760243,
+   "aurc": 0.6656098365783691,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.9944444298744202,
+     "riesgo_real": 0.27094972133636475
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.9944444298744202,
+     "riesgo_real": 0.27094972133636475
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "distancia": {
+   "auroc_fallo": 0.7737965415173703,
+   "aurc": 0.6026337742805481,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": true,
+     "cobertura": 0.6861110925674438,
+     "riesgo_real": 0.1538461595773697
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.9888888597488403,
+     "riesgo_real": 0.266853928565979
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.9888888597488403,
+     "riesgo_real": 0.266853928565979
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "inspeccion": {
+   "auroc_fallo": 0.69325440099704,
+   "aurc": 0.5998142957687378,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": true,
+     "cobertura": 0.4833333194255829,
+     "riesgo_real": 0.13793103396892548
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.7833333611488342,
+     "riesgo_real": 0.20921985805034637
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.7833333611488342,
+     "riesgo_real": 0.20921985805034637
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "confianza": {
+   "auroc_fallo": 0.692553357220751,
+   "aurc": 0.6009946465492249,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": true,
+     "cobertura": 0.6833333373069763,
+     "riesgo_real": 0.18292683362960815
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.6833333373069763,
+     "riesgo_real": 0.18292683362960815
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.6833333373069763,
+     "riesgo_real": 0.18292683362960815
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "colmena": {
+   "auroc_fallo": 0.6565664433712416,
+   "aurc": 0.6096590161323547,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.9083333611488342,
+     "riesgo_real": 0.25076451897621155
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.9083333611488342,
+     "riesgo_real": 0.25076451897621155
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  },
+  "clasificador": {
+   "auroc_fallo": 0.8003193643869762,
+   "aurc": 0.5426352620124817,
+   "por_riesgo": {
+    "0.1": {
+     "certificado": false,
+     "cobertura": 0.0,
+     "riesgo_real": NaN
+    },
+    "0.2": {
+     "certificado": true,
+     "cobertura": 0.5388888716697693,
+     "riesgo_real": 0.10824742168188095
+    },
+    "0.3": {
+     "certificado": true,
+     "cobertura": 0.9722222089767456,
+     "riesgo_real": 0.2571428716182709
+    },
+    "0.4": {
+     "certificado": true,
+     "cobertura": 0.9722222089767456,
+     "riesgo_real": 0.2571428716182709
+    }
+   },
+   "certificado": false,
+   "cobertura_certificada": 0.0,
+   "riesgo_real": NaN
+  }
+ }
+}
