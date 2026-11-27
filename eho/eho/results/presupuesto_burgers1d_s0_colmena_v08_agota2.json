@@ -1,0 +1,80 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 0,
+ "presupuesto_por_ronda": 4,
+ "rondas": 6,
+ "inicial": {
+  "conocido_escalares": 0.3103280814830214,
+  "conocido_campos": 0.5056124175898731,
+  "nuevo_escalares": 1.5215524951927364,
+  "nuevo_campos": 4.393281619995832
+ },
+ "estrategias": {
+  "colmena_v08": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3103280814830214,
+    "conocido_campos": 0.5056124175898731,
+    "nuevo_escalares": 1.5215524951927364,
+    "nuevo_campos": 4.393281619995832
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 3,
+    "conocido_escalares": 0.2820858816849068,
+    "conocido_campos": 0.4848815677687526,
+    "nuevo_escalares": 0.9581003992352635,
+    "nuevo_campos": 3.552585327066481
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.24963668989948928,
+    "conocido_campos": 0.4692057096399367,
+    "nuevo_escalares": 0.7720699543133378,
+    "nuevo_campos": 3.091533430851996
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.2510459863115102,
+    "conocido_campos": 0.46845634654164314,
+    "nuevo_escalares": 0.6421429112087935,
+    "nuevo_campos": 2.462961034849286
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.24806722812354565,
+    "conocido_campos": 0.4697260530665517,
+    "nuevo_escalares": 0.5938396884594113,
+    "nuevo_campos": 2.0040887789800763
+   },
+   {
+    "ronda": 4,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.24806722812354565,
+    "conocido_campos": 0.4697260530665517,
+    "nuevo_escalares": 0.5938396884594113,
+    "nuevo_campos": 2.0040887789800763
+   },
+   {
+    "ronda": 5,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.24806722812354565,
+    "conocido_campos": 0.4697260530665517,
+    "nuevo_escalares": 0.5938396884594113,
+    "nuevo_campos": 2.0040887789800763
+   }
+  ]
+ },
+ "segundos": 197.5,
+ "agota_en_ronda": 2
+}
