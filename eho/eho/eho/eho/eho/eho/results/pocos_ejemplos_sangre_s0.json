@@ -1,0 +1,122 @@
+{
+ "dominio": "sangre",
+ "semilla": 0,
+ "variantes": {
+  "memoria_ninguna": {
+   "k=0": {
+    "campos_L2rel": 0.08058899814883867,
+    "escalares_MAE": 0.05626942552626133
+   },
+   "k=1": {
+    "campos_L2rel": 0.08026479509743777,
+    "escalares_MAE": 0.055570031160658055
+   },
+   "k=2": {
+    "campos_L2rel": 0.08049616441130639,
+    "escalares_MAE": 0.055122821480035784
+   },
+   "k=5": {
+    "campos_L2rel": 0.0806731613618987,
+    "escalares_MAE": 0.05574677512049675
+   },
+   "segundos_adaptacion_k=5": 0.00404670980000219
+  },
+  "memoria_episodica": {
+   "k=0": {
+    "campos_L2rel": 0.06787458583712577,
+    "escalares_MAE": 0.055065024519960086
+   },
+   "k=1": {
+    "campos_L2rel": 0.06741457066752694,
+    "escalares_MAE": 0.05362442657351494
+   },
+   "k=2": {
+    "campos_L2rel": 0.06727542281150818,
+    "escalares_MAE": 0.05299745514988899
+   },
+   "k=5": {
+    "campos_L2rel": 0.0675496586731502,
+    "escalares_MAE": 0.05444691085389682
+   },
+   "segundos_adaptacion_k=5": 0.007078747399998519
+  },
+  "memoria_completa": {
+   "k=0": {
+    "campos_L2rel": 0.06438673958182335,
+    "escalares_MAE": 0.05706306838740905
+   },
+   "k=1": {
+    "campos_L2rel": 0.06450860662893816,
+    "escalares_MAE": 0.05772397287867286
+   },
+   "k=2": {
+    "campos_L2rel": 0.06480606034398079,
+    "escalares_MAE": 0.05634524494409561
+   },
+   "k=5": {
+    "campos_L2rel": 0.06443811378308704,
+    "escalares_MAE": 0.05496500836951392
+   },
+   "segundos_adaptacion_k=5": 0.007185289299991382
+  },
+  "ajuste_fino_afinado": {
+   "k=1": {
+    "campos_L2rel": 0.05404390787536448,
+    "escalares_MAE": 0.02346481697803194,
+    "segundos_por_episodio": 0.3104190447500173,
+    "hiperparametros": {
+     "steps": 30,
+     "lr": 0.001,
+     "mode": "cabeza"
+    }
+   },
+   "k=2": {
+    "campos_L2rel": 0.04068671554327011,
+    "escalares_MAE": 0.01772514246404171,
+    "segundos_por_episodio": 0.321760104649934,
+    "hiperparametros": {
+     "steps": 30,
+     "lr": 0.001,
+     "mode": "cabeza"
+    }
+   },
+   "k=5": {
+    "campos_L2rel": 0.033167723353419984,
+    "escalares_MAE": 0.011130048627299922,
+    "segundos_por_episodio": 0.36849792119999164,
+    "hiperparametros": {
+     "steps": 30,
+     "lr": 0.001,
+     "mode": "todo"
+    }
+   }
+  },
+  "mezcla_rapido_lento": {
+   "k=1": {
+    "escalares_MAE": 0.024142110720276833,
+    "campos_L2rel": 0.04412730783224106,
+    "peso_memoria": [
+     0.2735544443130493,
+     0.07781292498111725
+    ]
+   },
+   "k=2": {
+    "escalares_MAE": 0.018128668889403343,
+    "campos_L2rel": 0.03676523268222809,
+    "peso_memoria": [
+     0.19962359964847565,
+     0.07229055464267731
+    ]
+   },
+   "k=5": {
+    "escalares_MAE": 0.011067308485507965,
+    "campos_L2rel": 0.03207455202937126,
+    "peso_memoria": [
+     0.09109687805175781,
+     0.016008978709578514
+    ]
+   }
+  }
+ },
+ "segundos": 149.4
+}

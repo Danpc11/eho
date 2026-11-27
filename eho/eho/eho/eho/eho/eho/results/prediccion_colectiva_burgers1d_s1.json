@@ -1,0 +1,48 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 1,
+ "modos": {
+  "media": {
+   "conocido": {
+    "MAE": 0.26650723814964294,
+    "MAE_aceptados": 0.25423648953437805,
+    "cobertura": 0.8958333134651184,
+    "MAE_agentes": 0.2989999055862427
+   },
+   "intermedio": {
+    "MAE": 0.2194882035255432,
+    "MAE_aceptados": 0.21435177326202393,
+    "cobertura": 0.9583333134651184,
+    "MAE_agentes": 0.2505526840686798
+   }
+  },
+  "ponderada": {
+   "conocido": {
+    "MAE": 0.2712685167789459,
+    "MAE_aceptados": 0.2588993310928345,
+    "cobertura": 0.8958333134651184,
+    "MAE_agentes": 0.2989999055862427
+   },
+   "intermedio": {
+    "MAE": 0.22119836509227753,
+    "MAE_aceptados": 0.21650302410125732,
+    "cobertura": 0.9583333134651184,
+    "MAE_agentes": 0.2505526840686798
+   }
+  },
+  "ganador": {
+   "conocido": {
+    "MAE": 0.29338139295578003,
+    "MAE_aceptados": 0.27207303047180176,
+    "cobertura": 0.8958333134651184,
+    "MAE_agentes": 0.2989999055862427
+   },
+   "intermedio": {
+    "MAE": 0.22963319718837738,
+    "MAE_aceptados": 0.22255444526672363,
+    "cobertura": 0.9583333134651184,
+    "MAE_agentes": 0.2505526840686798
+   }
+  }
+ }
+}

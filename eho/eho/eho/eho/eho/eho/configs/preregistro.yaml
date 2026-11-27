@@ -1,0 +1,46 @@
+# PRERREGISTRO del análisis (v0.10). Estos valores se fijan ANTES de lanzar las 10 semillas en el clúster
+# y no se cambian después de ver resultados. `python3 -m eho.preregistro` imprime su huella SHA-256, que
+# cada experimento guarda junto a sus resultados: si el archivo cambia, la huella cambia.
+#
+# ESTADO: PROPUESTA de Claude del 27 de noviembre de 2026. Revise cada valor, cámbielo si no corresponde a
+# lo que es aceptable en su problema, y ponga `confirmado: true` antes de lanzar.
+confirmado: false
+
+semillas: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Garantía de abstención (Learn-then-Test). Una predicción "falla" si el error absoluto de cada salida,
+# dividido entre su tolerancia y promediado sobre las salidas, supera 1.
+abstencion:
+  riesgo: 0.10            # fracción máxima de fallos entre las predicciones aceptadas
+  delta: 0.10             # probabilidad máxima de que la garantía no se cumpla (conjunta entre protocolos)
+  protocolos: [2, 5]      # mediciones de contexto con certificado propio
+  unidad: una consulta por paciente
+  senal: elegida_en_referencia   # la de mayor AUROC en el conjunto de referencia; se congela antes de calibrar
+
+# Tolerancias ABSOLUTAS por salida (antes: 2 x el error mediano, que dependía de los propios datos).
+tolerancia:
+  sangre:                 # salidas: log(viscosidad aparente relativa), espesor relativo de la capa libre de células
+    valores: [0.10, 0.05] # 0.10 en log-viscosidad ≈ 10 % de error en la viscosidad; 0.05 del radio en la capa
+  burgers1d:              # salidas: log(E_T / E_0), log(pendiente máxima)
+    valores: [0.50, 0.50]
+  edp1d:                  # salidas: log(E_T / E_0), máx |u(T)|
+    valores: [0.25, 0.25]
+
+# No inferioridad (menor error es mejor): lo nuevo no es peor que la referencia por más del margen.
+no_inferioridad:
+  margen_relativo: 0.10   # 10 % del error medio de la referencia
+  nivel: 0.95
+  metodo: t               # intervalo t pareado por semilla
+  comparaciones:          # las únicas que se interpretarán como confirmatorias
+    - {nuevo: regla de parada (colmena_medida), referencia: valor codicioso con presupuesto completo, metrica: error en lo nuevo}
+    - {nuevo: memoria bayesiana k=2, referencia: ajuste fino afinado k=2, metrica: error escalar}
+
+# Hipótesis principal y métricas primarias (lo demás es exploratorio).
+hipotesis: >
+  La memoria adaptativa con incertidumbre calibrada reduce el costo acumulado necesario para alcanzar un
+  desempeño predictivo dado.
+metricas_primarias:
+  - error en el objetivo con k = 2 mediciones (memoria bayesiana frente a base y a ajuste fino)
+  - simulaciones usadas y error final con reserva que se agota (regla de parada)
+  - cobertura certificada y riesgo real con la señal elegida en referencia
+  - AUROC del centinela en cambio oculto a igual tasa de falsas alarmas que CUSUM

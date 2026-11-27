@@ -1,0 +1,20 @@
+# HemoTwin-MX: gemelo hemorreológico para diabetes tipo 2 (datos sintéticos hasta tener DPD/HemoCell)
+nombre: hemotwin_dt2
+dominio:
+  nombre: sangre
+  params: {n_points: 96}
+  simuladores:                 # cada agente aprende de una fuente; la diversidad evita el pensamiento de grupo
+    - {simulador: quemada}     # cuando existan: datos de Mirheo (DPD) y de HemoCell (IB-LBM)
+    - {simulador: carreau}
+  regimenes: [sano, dt2]
+  episodios_por_regimen: 40
+  muestras_por_episodio: 8
+  # datos_entrenamiento: [datos/mirheo.pt, datos/hemocell.pt]
+  # datos_validacion: datos/validacion.pt
+  episodios_calibracion: 80     # v0.7: episodios para certificar la abstención (Learn-then-Test)
+  # datos_calibracion: datos/calibracion.pt
+modelo: {d: 48, n_slices: 12, memoria: completa, novedad: coseno, ecologia: true}
+# calibracion: ltt garantiza P(error > tolerancia | aceptada) ≤ riesgo con probabilidad ≥ 1 - delta
+colmena: {n_agentes: 4, diversa: true, k_contexto: 2, calibracion: ltt, riesgo: 0.1, delta: 0.1}
+entrenamiento: {epocas: 30, dispositivo: auto, semilla: 0, tasa: coseno}   # coseno: estabiliza sangre (v0.9.1)
+activo: {presupuesto: 4, usar_error: true, ancla: 0.01, repeticion: 60}

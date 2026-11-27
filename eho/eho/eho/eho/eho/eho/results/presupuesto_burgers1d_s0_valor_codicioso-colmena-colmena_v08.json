@@ -1,0 +1,171 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 0,
+ "presupuesto_por_ronda": 4,
+ "rondas": 4,
+ "inicial": {
+  "conocido_escalares": 0.3071043451782316,
+  "conocido_campos": 0.5053602620027959,
+  "nuevo_escalares": 1.4361087488941848,
+  "nuevo_campos": 6.086294419132173
+ },
+ "estrategias": {
+  "valor_codicioso": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.27709576301276684,
+    "conocido_campos": 0.4920977484434843,
+    "nuevo_escalares": 0.9781340782064945,
+    "nuevo_campos": 2.598199593834579
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.27874910982791334,
+    "conocido_campos": 0.4759802673943341,
+    "nuevo_escalares": 0.7680171781685203,
+    "nuevo_campos": 2.6988177690654993
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 4,
+    "conocido_escalares": 0.23911520675756037,
+    "conocido_campos": 0.47379743307828903,
+    "nuevo_escalares": 0.5892899702303112,
+    "nuevo_campos": 2.749075261875987
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 4,
+    "conocido_escalares": 0.2616453415248543,
+    "conocido_campos": 0.4738763957284391,
+    "nuevo_escalares": 0.5464086397551,
+    "nuevo_campos": 2.4705687910318375
+   }
+  ],
+  "colmena": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 1,
+    "nuevas": 1,
+    "conocido_escalares": 0.27391103783156723,
+    "conocido_campos": 0.4764870903454721,
+    "nuevo_escalares": 1.1390703180804849,
+    "nuevo_campos": 4.430100755766034
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 2,
+    "nuevas": 0,
+    "conocido_escalares": 0.24848025548271835,
+    "conocido_campos": 0.46884658746421337,
+    "nuevo_escalares": 1.0421929236035794,
+    "nuevo_campos": 2.8031253470107913
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 3,
+    "nuevas": 1,
+    "conocido_escalares": 0.2610819707624614,
+    "conocido_campos": 0.4731312938965857,
+    "nuevo_escalares": 0.9792439634911716,
+    "nuevo_campos": 3.060067480430007
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 4,
+    "nuevas": 0,
+    "conocido_escalares": 0.25358077185228467,
+    "conocido_campos": 0.4550797385163605,
+    "nuevo_escalares": 0.9722350956872106,
+    "nuevo_campos": 3.368272324092686
+   }
+  ],
+  "colmena_v08": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3071043451782316,
+    "conocido_campos": 0.5053602620027959,
+    "nuevo_escalares": 1.4361087488941848,
+    "nuevo_campos": 6.086294419132173
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.2910183786880225,
+    "conocido_campos": 0.48230023868381977,
+    "nuevo_escalares": 1.0196510795503855,
+    "nuevo_campos": 5.83806206099689
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.26543479587417096,
+    "conocido_campos": 0.4858516054227948,
+    "nuevo_escalares": 0.6933015373069793,
+    "nuevo_campos": 3.6548777278512716
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 4,
+    "conocido_escalares": 0.2985286738257855,
+    "conocido_campos": 0.4933260828256607,
+    "nuevo_escalares": 0.5653210247401148,
+    "nuevo_campos": 2.2574480790644884
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 4,
+    "conocido_escalares": 0.2401012838818133,
+    "conocido_campos": 0.46660927264019847,
+    "nuevo_escalares": 0.6466354350559413,
+    "nuevo_campos": 2.289518383331597
+   }
+  ]
+ },
+ "colmena_paro": {
+  "simulaciones": 4,
+  "simulaciones_codicioso": 16,
+  "error_nuevo": 0.9722350956872106,
+  "codicioso_mismas_sim": 0.9781340782064945,
+  "a_mismas_sim": -0.005898982519283891,
+  "codicioso_presupuesto_completo": 0.5464086397551,
+  "perdida_por_parar": 0.42582645593211055
+ },
+ "colmena_v08_paro": {
+  "simulaciones": 16,
+  "simulaciones_codicioso": 16,
+  "error_nuevo": 0.6466354350559413,
+  "codicioso_mismas_sim": 0.5464086397551,
+  "a_mismas_sim": 0.10022679530084133,
+  "codicioso_presupuesto_completo": 0.5464086397551,
+  "perdida_por_parar": 0.10022679530084133
+ },
+ "segundos": 312.1
+}

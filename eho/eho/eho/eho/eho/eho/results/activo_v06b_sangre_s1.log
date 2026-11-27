@@ -1,0 +1,11 @@
+[exp_sangre] entrenando 4 agentes en cpu (2 fuente(s) de datos)
+  agente 1/4 listo (quemada, {'n_slices': 8, 'd': 40})
+  agente 2/4 listo (carreau, {'n_slices': 12, 'd': 48})
+  agente 3/4 listo (quemada, {'n_slices': 16, 'd': 56})
+  agente 4/4 listo (carreau, {'n_slices': 12, 'd': 40})
+[exp_sangre] listo en 139 s
+inicial {'conocido_escalares': 0.029436904776957817, 'conocido_campos': 0.07923464960185811, 'nuevo_escalares': 0.09343908555456437, 'nuevo_campos': 0.19475992559455335}
+colmena_v06 {'conocido_escalares': 0.0247, 'conocido_campos': 0.0598, 'nuevo_escalares': 0.0488, 'nuevo_campos': 0.1474, 'ronda': 0, 'simulaciones': 1, 'acumuladas': 1, 'nuevas_elegidas': 1}
+colmena_v06 {'conocido_escalares': 0.0212, 'conocido_campos': 0.0602, 'nuevo_escalares': 0.0471, 'nuevo_campos': 0.1332, 'ronda': 1, 'simulaciones': 1, 'acumuladas': 2, 'nuevas_elegidas': 0}
+colmena_v06 {'conocido_escalares': 0.025, 'conocido_campos': 0.0555, 'nuevo_escalares': 0.047, 'nuevo_campos': 0.0974, 'ronda': 2, 'simulaciones': 2, 'acumuladas': 4, 'nuevas_elegidas': 2}
+colmena_v06 {'conocido_escalares': 0.022, 'conocido_campos': 0.0592, 'nuevo_escalares': 0.0404, 'nuevo_campos': 0.1142, 'ronda': 3, 'simulaciones': 4, 'acumuladas': 8, 'nuevas_elegidas': 3}

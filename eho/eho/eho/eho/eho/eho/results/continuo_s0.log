@@ -1,0 +1,6 @@
+EHO completo {'tras': 'sano', 'sano': 0.41687125225861865, 'prediabetes': 0.46509525597095486, 'dt2': 0.5294252562522889} especies 2
+EHO completo {'tras': 'prediabetes', 'sano': 0.06707951108614604, 'prediabetes': 0.07764146069685618, 'dt2': 0.09702395637830098} especies 3
+EHO completo {'tras': 'dt2', 'sano': 0.0759892737865448, 'prediabetes': 0.07233629544576009, 'dt2': 0.07196556816498438} especies 2
+sin ecologia {'tras': 'sano', 'sano': 0.18503779808680215, 'prediabetes': 0.17638218323389687, 'dt2': 0.1782603351275126} especies 4
+sin ecologia {'tras': 'prediabetes', 'sano': 0.06296913822491963, 'prediabetes': 0.06240911235411962, 'dt2': 0.07504708290100098} especies 4
+sin ecologia {'tras': 'dt2', 'sano': 0.12238568067550659, 'prediabetes': 0.1258208707968394, 'dt2': 0.10638960639635722} especies 4

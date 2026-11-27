@@ -1,0 +1,153 @@
+{
+ "dominio": "burgers1d",
+ "semilla": 1,
+ "presupuesto_por_ronda": 4,
+ "rondas": 6,
+ "inicial": {
+  "conocido_escalares": 0.3094238634221256,
+  "conocido_campos": 0.5303180259652436,
+  "nuevo_escalares": 1.3703883290290833,
+  "nuevo_campos": 5.984572787769139
+ },
+ "estrategias": {
+  "valor_codicioso": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3094238634221256,
+    "conocido_campos": 0.5303180259652436,
+    "nuevo_escalares": 1.3703883290290833,
+    "nuevo_campos": 5.984572787769139
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.297513575758785,
+    "conocido_campos": 0.498726864811033,
+    "nuevo_escalares": 1.0531445343513042,
+    "nuevo_campos": 2.5991588104516268
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.3587658682372421,
+    "conocido_campos": 0.519381111022085,
+    "nuevo_escalares": 0.768102178350091,
+    "nuevo_campos": 2.5717357052490115
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.3125574591103941,
+    "conocido_campos": 0.5018600467592478,
+    "nuevo_escalares": 0.5566800369415432,
+    "nuevo_campos": 2.2165100499987602
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.27901765843853354,
+    "conocido_campos": 0.485241258982569,
+    "nuevo_escalares": 0.610665995394811,
+    "nuevo_campos": 3.1405097814276814
+   },
+   {
+    "ronda": 4,
+    "acumuladas": 20,
+    "nuevas": 0,
+    "conocido_escalares": 0.2592762792482972,
+    "conocido_campos": 0.47905580373480916,
+    "nuevo_escalares": 0.5654159130062908,
+    "nuevo_campos": 1.5165142752230167
+   },
+   {
+    "ronda": 5,
+    "acumuladas": 24,
+    "nuevas": 0,
+    "conocido_escalares": 0.24794750043656677,
+    "conocido_campos": 0.46036011166870594,
+    "nuevo_escalares": 0.5609389459714293,
+    "nuevo_campos": 2.4723605923354626
+   }
+  ],
+  "colmena_v08": [
+   {
+    "ronda": -1,
+    "acumuladas": 0,
+    "conocido_escalares": 0.3094238634221256,
+    "conocido_campos": 0.5303180259652436,
+    "nuevo_escalares": 1.3703883290290833,
+    "nuevo_campos": 5.984572787769139
+   },
+   {
+    "ronda": 0,
+    "acumuladas": 4,
+    "nuevas": 4,
+    "conocido_escalares": 0.28256341349333525,
+    "conocido_campos": 0.4952255543321371,
+    "nuevo_escalares": 1.0537005718797445,
+    "nuevo_campos": 2.710501586087048
+   },
+   {
+    "ronda": 1,
+    "acumuladas": 8,
+    "nuevas": 4,
+    "conocido_escalares": 0.3593374425545335,
+    "conocido_campos": 0.509023321326822,
+    "nuevo_escalares": 0.693473213352263,
+    "nuevo_campos": 2.8045462304726243
+   },
+   {
+    "ronda": 2,
+    "acumuladas": 12,
+    "nuevas": 0,
+    "conocido_escalares": 0.26133015018422157,
+    "conocido_campos": 0.4813905614428222,
+    "nuevo_escalares": 0.6143970373086631,
+    "nuevo_campos": 2.189302251674235
+   },
+   {
+    "ronda": 3,
+    "acumuladas": 16,
+    "nuevas": 0,
+    "conocido_escalares": 0.26807950995862484,
+    "conocido_campos": 0.4776295912452042,
+    "nuevo_escalares": 0.7141895063687116,
+    "nuevo_campos": 2.4548720065504313
+   },
+   {
+    "ronda": 4,
+    "acumuladas": 20,
+    "nuevas": 0,
+    "conocido_escalares": 0.2569206781918183,
+    "conocido_campos": 0.47994049079716206,
+    "nuevo_escalares": 0.5854450929909945,
+    "nuevo_campos": 2.363080032169819
+   },
+   {
+    "ronda": 5,
+    "acumuladas": 24,
+    "nuevas": 0,
+    "conocido_escalares": 0.24612804455682635,
+    "conocido_campos": 0.4642701200209558,
+    "nuevo_escalares": 0.606479030335322,
+    "nuevo_campos": 2.0247485572472215
+   }
+  ]
+ },
+ "colmena_v08_paro": {
+  "simulaciones": 24,
+  "simulaciones_codicioso": 24,
+  "error_nuevo": 0.606479030335322,
+  "codicioso_mismas_sim": 0.5609389459714293,
+  "a_mismas_sim": 0.045540084363892674,
+  "codicioso_presupuesto_completo": 0.5609389459714293,
+  "perdida_por_parar": 0.045540084363892674
+ },
+ "segundos": 462.3,
+ "agota_en_ronda": 2
+}
